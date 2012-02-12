@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="6">
+    <FormId>1375</FormId>
+    <FirstName>Jacob</FirstName>
+    <LastName>Smithey</LastName>
+    <Address1>128 East Main Street</Address1>
+    <Address2>Suite 6</Address2>
+    <City>Concord</City>
+    <State>NH</State>
+    <Zipcode>45678</Zipcode>
+    <Telephone1>892-555-1218</Telephone1>
+    <Telephone2>892-556-1218</Telephone2>
+    <Birthdate>10/20/1951 12:00:00 AM</Birthdate>
+    <Benefit>500000</Benefit>
+    <SignedAtState>GA</SignedAtState>
+    <CWA>No</CWA>
+    <Relationship>1</Relationship>
+  </Application>
+</Applications>

@@ -1,0 +1,5 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Catastrophic\bin\Debug\Catastrophic.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Catastrophic\bin\Debug\Catastrophic.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Catastrophic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Catastrophic\obj\Debug\Catastrophic.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Catastrophic\obj\Debug\Catastrophic.pdb

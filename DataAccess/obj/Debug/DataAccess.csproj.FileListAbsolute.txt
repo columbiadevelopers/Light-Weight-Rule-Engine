@@ -1,0 +1,25 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\DataAccess\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\DataAccess\obj\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\DataAccess\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\DataAccess\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\DataAccess\obj\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\DataAccess\obj\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\DataAccess\bin\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\DataAccess\bin\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\DataAccess\obj\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\DataAccess\obj\Debug\DataAccess.pdb

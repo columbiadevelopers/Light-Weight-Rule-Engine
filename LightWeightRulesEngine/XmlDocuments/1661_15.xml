@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="15">
+    <FormId>1661</FormId>
+    <FirstName>Charles</FirstName>
+    <LastName>Browne</LastName>
+    <Address1>129 East Main Street</Address1>
+    <Address2>Apt 5</Address2>
+    <City>Atlanta</City>
+    <State>CA</State>
+    <Zipcode>43215</Zipcode>
+    <Telephone1>345-555-1219</Telephone1>
+    <Telephone2>345-556-1219</Telephone2>
+    <Birthdate>10/13/1944 12:00:00 AM</Birthdate>
+    <Benefit>25000</Benefit>
+    <CWA>Yes</CWA>
+    <SignedAtState/>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

@@ -1,0 +1,35 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\bin\Debug\ErrorLogging.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\bin\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\bin\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\ErrorLogging\obj\Debug\ErrorLogging.pdb

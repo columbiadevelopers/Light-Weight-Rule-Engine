@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="10">
+    <FormId>1662</FormId>
+    <FirstName>James</FirstName>
+    <LastName>Wilson</LastName>
+    <Address1>132 East Main Street</Address1>
+    <Address2>Suite 8</Address2>
+    <City>Charlotte</City>
+    <State>NC</State>
+    <Zipcode>28202</Zipcode>
+    <Telephone1>704-555-1222</Telephone1>
+    <Telephone2>704-556-1222</Telephone2>
+    <Birthdate>3/5/1949 12:00:00 AM</Birthdate>
+    <Benefit>40000</Benefit>
+    <CWA>No</CWA>
+    <SignedAtState>GA</SignedAtState>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

@@ -1,0 +1,25 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\FactoryPattern\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\FactoryPattern\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\FactoryPattern\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\FactoryPattern\obj\Debug\FactoryPattern.pdb

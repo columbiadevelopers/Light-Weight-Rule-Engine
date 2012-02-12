@@ -1,0 +1,100 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe.config
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.exe
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe.config
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.exe
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe.config
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\LightWeightRulesEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe.config
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe.config
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.exe
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\LightWeightRulesEngine.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.exe
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\LightWeightRulesEngine.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\AgeInLimits.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\BenefitInLimits.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\ErrorLogging.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\Handler.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\SignedAtState.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\bin\Debug\StateIsApproved.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine\obj\Debug\ResolveAssemblyReference.cache

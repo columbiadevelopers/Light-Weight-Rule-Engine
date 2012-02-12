@@ -1,0 +1,55 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\StateIsApproved.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\Handler.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\ErrorLogging.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\bin\Debug\Handler.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\StateIsApproved\obj\Debug\StateIsApproved.pdb

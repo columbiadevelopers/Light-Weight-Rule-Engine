@@ -1,0 +1,25 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Handler\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Handler\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Handler\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Handler\obj\Debug\Handler.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\Handler\obj\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\Handler\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\Handler\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\Handler.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\Handler\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\Handler\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\Handler\obj\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\Handler\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\Handler\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\Handler\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\Handler\obj\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\Handler\obj\Debug\Handler.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\Handler\bin\Debug\Handler.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\Handler\bin\Debug\Handler.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\Handler\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\Handler\obj\Debug\Handler.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\Handler\obj\Debug\Handler.pdb

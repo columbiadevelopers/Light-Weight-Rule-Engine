@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="8">
+    <FormId>1661</FormId>
+    <FirstName>David</FirstName>
+    <LastName>Fitney</LastName>
+    <Address1>130 East Main Street</Address1>
+    <Address2>Suite 7</Address2>
+    <City>Miami</City>
+    <State>WA</State>
+    <Zipcode>65432</Zipcode>
+    <Telephone1>234-555-1220</Telephone1>
+    <Telephone2>234-556-1220</Telephone2>
+    <Birthdate>4/11/1942 12:00:00 AM</Birthdate>
+    <Benefit>200000</Benefit>
+    <CWA>Yes</CWA>
+    <SignedAtState>GA</SignedAtState>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

@@ -1,0 +1,3595 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: Chain of Responsibility Design Pattern in C# and VB.NET.
+Date: Sat, 17 Oct 2009 07:42:10 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CA4EFD.55740640"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16385
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dofactory.com/Patterns/PatternChain.aspx
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD =
+id=3Dctl00_Head1><TITLE>Chain of Responsibility Design Pattern in C# and =
+VB.NET.</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3Drobots content=3Dindex,follow>
+<META name=3Dauthor=20
+content=3D"Data &amp; Object Factory, LLC -- info@dofactory.com">
+<META name=3Dcopyright content=3D"Copyright =C2=A9 dofactory.com. All =
+rights reserved.">
+<META name=3Ddistribution content=3Dglobal>
+<META name=3Dgooglebot content=3Dindex,follow>
+<META name=3Drevisit-after content=3D"2 weeks">
+<META content=3Dno http-equiv=3Dimagetoolbar><LINK rel=3D"shortcut icon" =
+
+type=3Dimage/x-icon href=3D"http://www.dofactory.com/favicon.ico"><LINK=20
+rel=3D"shortcut icon" type=3Dimage/x-icon =
+href=3D"/favicon.ico"></LINK><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://www.dofactory.com/App_Themes/DoFactory/DoFactory.css">
+<META name=3Dkeywords=20
+content=3D"Chain of Responsibility Design Pattern, Object Oriented =
+Design, Microsoft .NET, ASP.NET, C#, VB.Net, Java, UML">
+<META name=3Ddescription=20
+content=3D"Chain of Responsibility Design Pattern C# and VB.NET. Beyond =
+OO Design and Development. Valuable source code and UML">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7600.16385"></HEAD>
+<BODY id=3Ddofactory-com>
+<DIV id=3Dcontainer>
+<FORM id=3DaspnetForm method=3Dpost name=3DaspnetForm =
+action=3DPattern.aspx?id=3D5>
+<DIV><INPUT id=3D__VIEWSTATE=20
+value=3D/wEPDwUKLTk5NDI0ODM4OGRkvb0eyND/qX0zY0Cs/suJvntmLk8=3D =
+type=3Dhidden=20
+name=3D__VIEWSTATE> </DIV>
+<DIV id=3Dheader>
+<DIV id=3Dlogo><A id=3Dctl00_HyperLinkLogo=20
+href=3D"http://www.dofactory.com/Default.aspx"><IMG=20
+style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"=20
+src=3D"http://www.dofactory.com/Images/logo.gif"></A> </DIV></DIV>
+<DIV id=3Dmain-body>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dleft>
+      <DIV id=3Dmenubox><SPAN id=3Dctl00_TheMenu>
+      <DIV id=3Dmenuhead></DIV>
+      <DIV id=3Dmenu>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/Default.aspx">home</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Courses/Courses.aspx">courses</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Schedule/Schedule.aspx">schedule</A></DI=
+V>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Register/Register.aspx">registration</A>=
+</DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Careers/Careers.aspx">careers</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/Contact/Contact.aspx">contact =
+us</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Sitemap/Sitemap.aspx">sitemap</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/About/About.aspx">about =
+us</A></DIV>
+      <DIV class=3Dmenudivider></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Member/Login.aspx">login</A></DIV>
+      <DIV class=3Dmenuitemactive><A class=3Dactive=20
+      href=3D"http://www.dofactory.com/Patterns/Patterns.aspx">design=20
+      patterns</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/Framework/Framework.aspx">pattern =
+framework=20
+      3.5 <SUP><FONT color=3D#999999>TM</FONT></SUP></A></DIV>
+      <DIV class=3Dmenudivider></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/Resources/Resources.aspx">resources</A><=
+/DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/WPFPatterns/WPFPatterns.aspx">wpf =
+
+      patterns</A></DIV>
+      <DIV class=3Dmenuitem><A =
+href=3D"http://www.dofactory.com/Ajax/Ajax.aspx">ajax=20
+      patterns</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/Refcard/Refcard.aspx">C# =
+reference=20
+      card</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      href=3D"http://www.dofactory.com/Connect/Connect.aspx">connection=20
+      strings</A></DIV>
+      <DIV class=3Dmenuitem><A=20
+      =
+href=3D"http://www.dofactory.com/ShortCutKeys/ShortCutKeys.aspx">visual=20
+      studio shortcuts</A></DIV>
+      <DIV class=3Dmenudivider></DIV>
+      <DIV class=3Dmenudivider></DIV></DIV>
+      <DIV id=3Dtraining>training and education for professional=20
+      developers</DIV></SPAN></DIV></TD>
+    <TD vAlign=3Dtop align=3Dleft>
+      <DIV id=3Dcontent-wrapper>
+      <DIV id=3Dsubheader><SPAN id=3Dctl00_TheBanner>
+      <DIV id=3Dbanner>
+      <DIV class=3Ddash></DIV>
+      <DIV class=3Dban>
+      <DIV class=3Dbanleft>design patterns</DIV>
+      <DIV class=3Dbanright>C#, ASP.NET, WPF, WCF, LINQ,=20
+      PATTERNS&nbsp;</DIV></DIV></DIV></SPAN></DIV>
+      <DIV id=3Dcontent>
+      <DIV id=3Dpatternhead>
+      <H1>Chain of Responsibility <SPAN class=3Ddp>Design =
+Pattern</SPAN></H1>
+      <DIV id=3Dpatternlist>&lt; <A=20
+      =
+href=3D"http://www.dofactory.com/Patterns/Patterns.aspx#list"><U>back to =
+
+      list of patterns</U></A></DIV></DIV>
+      <HR class=3Dhide>
+
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"PADDING-LEFT: 20px" vAlign=3Dtop width=3D160><IMG =
+
+            style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 8px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 7px; =
+BORDER-LEFT-WIDTH: 0px"=20
+            id=3Dctl00_ContentPlaceHolder1_Image1=20
+            =
+src=3D"http://www.dofactory.com/Images/redarrow.gif">&nbsp;<A=20
+            class=3Dalwayson1=20
+            =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#intent">defin=
+ition</A><BR><IMG=20
+            style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 8px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 7px; =
+BORDER-LEFT-WIDTH: 0px"=20
+            id=3Dctl00_ContentPlaceHolder1_Image2=20
+            =
+src=3D"http://www.dofactory.com/Images/redarrow.gif">&nbsp;<A=20
+            class=3Dalwayson1=20
+            =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#UML">UML=20
+            diagram</A><BR><IMG=20
+            style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 8px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 7px; =
+BORDER-LEFT-WIDTH: 0px"=20
+            id=3Dctl00_ContentPlaceHolder1_Image3=20
+            =
+src=3D"http://www.dofactory.com/Images/redarrow.gif">&nbsp;<A=20
+            class=3Dalwayson1=20
+            =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#participants"=
+>participants</A><BR></TD>
+          <TD vAlign=3Dtop width=3D300 align=3Dleft><IMG=20
+            style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 8px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 7px; =
+BORDER-LEFT-WIDTH: 0px"=20
+            id=3Dctl00_ContentPlaceHolder1_Image4=20
+            =
+src=3D"http://www.dofactory.com/Images/redarrow.gif">&nbsp;<A=20
+            class=3Dalwayson1=20
+            =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#csharp">sampl=
+e=20
+            code in C#</A> </TD></TR></TBODY></TABLE><BR>
+      <DIV class=3Ddash></DIV><BR>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD><A name=3Dintent></A>
+            <H3 id=3Ddefinition-scroll>definition</H3>
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD width=3D1><IMG=20
+                  style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 1px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; =
+BORDER-LEFT-WIDTH: 0px"=20
+                  id=3Dctl00_ContentPlaceHolder1_Image6=20
+                  =
+src=3D"http://www.dofactory.com/Images/pixel.gif"></TD>
+                <TD>Avoid coupling the sender of a request to its =
+receiver by=20
+                  giving more than one object a chance to handle the =
+request.=20
+                  Chain the receiving objects and pass the request along =
+the=20
+                  chain until an object handles it. <BR><BR>Frequency of =
+use:=20
+                  <IMG=20
+                  style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 101px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; =
+BORDER-LEFT-WIDTH: 0px"=20
+                  =
+src=3D"http://www.dofactory.com/Images/use_medium_low.gif">&nbsp;&nbsp;me=
+dium=20
+                  low </TD></TR></TBODY></TABLE></TD>
+          <TD width=3D95 align=3Dright><IMG=20
+            style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 75px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 75px; =
+BORDER-LEFT-WIDTH: 0px"=20
+            id=3Dctl00_ContentPlaceHolder1_Image53=20
+            =
+src=3D"http://www.dofactory.com/Images/552092_4.jpg"></TD></TR></TBODY></=
+TABLE><SPAN=20
+      id=3Dctl00_ContentPlaceHolder1_Totop1>
+      <DIV class=3Dtotop>
+      <P class=3Dreturntotop><A name=3DUML></A><A=20
+      href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#"><IMG =
+
+      align=3DabsBottom =
+src=3D"http://www.dofactory.com/Images/up.gif"></A><A=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#">return to=20
+      top</A></P>
+      <DIV class=3Ddash></DIV></DIV></SPAN>
+      <H3 id=3Duml-scroll>UML class diagram</H3><IMG border=3D0=20
+      src=3D"http://www.dofactory.com/Patterns/Diagrams/chain.gif"> =
+<SPAN=20
+      id=3Dctl00_ContentPlaceHolder1_Totop2>
+      <DIV class=3Dtotop>
+      <P class=3Dreturntotop><A name=3Dparticipants></A><A=20
+      href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#"><IMG =
+
+      align=3DabsBottom =
+src=3D"http://www.dofactory.com/Images/up.gif"></A><A=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#">return to=20
+      top</A></P>
+      <DIV class=3Ddash></DIV></DIV></SPAN>
+      <H3 id=3Dparticipants-scroll>participants</H3>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;The classes and/or objects =
+participating in=20
+      this pattern are: </P>
+      <UL>
+        <LI><FONT color=3D#aa0000><B>Handler =
+</B></FONT>&nbsp;&nbsp;<FONT=20
+        color=3D#007733><B>(Approver)</B></FONT>=20
+        <UL>
+          <LI>defines an interface for handling the requests=20
+          <LI>(optional) implements the successor link</LI></UL>
+        <LI><FONT color=3D#aa0000><B>ConcreteHandler =
+</B></FONT>&nbsp;&nbsp;<FONT=20
+        color=3D#007733><B>(Director, VicePresident, =
+President)</B></FONT>=20
+        <UL>
+          <LI>handles requests it is responsible for=20
+          <LI>can access its successor=20
+          <LI>if the ConcreteHandler can handle the request, it does so; =
+
+          otherwise it forwards the request to its successor</LI></UL>
+        <LI><FONT color=3D#aa0000><B>Client </B></FONT>&nbsp;&nbsp;<FONT =
+
+        color=3D#007733><B>(ChainApp)</B></FONT>=20
+        <UL>
+          <LI>initiates the request to a ConcreteHandler object on the=20
+        chain</LI></UL></LI></UL><SPAN =
+id=3Dctl00_ContentPlaceHolder1_Totop4>
+      <DIV class=3Dtotop>
+      <P class=3Dreturntotop><A name=3Dcsharp></A><A=20
+      href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#"><IMG =
+
+      align=3DabsBottom =
+src=3D"http://www.dofactory.com/Images/up.gif"></A><A=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#">return to=20
+      top</A></P>
+      <DIV class=3Ddash></DIV></DIV></SPAN>
+      <H3 id=3Dcsharp-scroll>sample code in C#</H3>
+      <P>This <FONT color=3D#bb0000>structural</FONT> code demonstrates =
+the Chain=20
+      of Responsibility pattern in which several linked objects (the =
+Chain) are=20
+      offered the opportunity to respond to a request or hand it off to =
+the=20
+      object next in line. </P><A id=3DxStructure =
+onclick=3D"ShowHide('Structure');"=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#_self1"><FONT=
+=20
+      color=3D#aa0000 size=3D2 face=3DArial,helvetica><B><U>Show=20
+      code</U></B></FONT></A> <BR><BR>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%"=20
+        bgColor=3D#fffaef><TBODY>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><FONT color=3Dgreen>// Chain of =
+Responsibility=20
+            pattern -- Structural example </FONT></DIV></TD></TR>
+        <TBODY style=3D"DISPLAY: none" id=3DStructure>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><BR>
+            <DIV class=3Ddivsource>
+            <P style=3D"MARGIN: 0px"><SPAN style=3D"COLOR: =
+blue">using</SPAN>=20
+            System;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px"><SPAN style=3D"COLOR: =
+blue">namespace</SPAN>=20
+            DoFactory.GangOfFour.Chain.Structural</P>
+            <P style=3D"MARGIN: 0px">{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> MainApp=20
+            startup class for Structural</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> Chain of=20
+            Responsibility Design Pattern.</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">MainApp</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> Entry=20
+            point into console application.</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">static</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> Main()</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Setup Chain of =
+Responsibility</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN> h1 =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler1</SPAN>();</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN> h2 =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler2</SPAN>();</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN> h3 =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler3</SPAN>();</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h1.SetSuccessor(h2);</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h2.SetSuccessor(h3);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Generate and process =
+request</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">int</SPAN>[] requests =3D { 2, 5, 14, =
+22, 18, 3,=20
+            27, 20 };</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">foreach</SPAN> (<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> request <SPAN=20
+            style=3D"COLOR: blue">in</SPAN> requests)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h1.HandleRequest(req=
+uest);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Wait for user</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.ReadKey();</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'Handler' abstract class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">abstract</SPAN> <SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">protected</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN> successor;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> SetSuccessor(<SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN> successor)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.successor =3D =
+successor;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">abstract</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> HandleRequest(<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> request);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler1' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler1</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> HandleRequest(<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> request)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (request &gt;=3D 0 =
+&amp;&amp; request=20
+            &lt; 10)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} handled request =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name, =
+request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN> <SPAN style=3D"COLOR: =
+blue">if</SPAN>=20
+            (successor !=3D <SPAN style=3D"COLOR: blue">null</SPAN>)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;successor.HandleRequ=
+est(request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler2' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler2</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> HandleRequest(<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> request)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (request &gt;=3D 10 =
+&amp;&amp; request=20
+            &lt; 20)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} handled request =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name, =
+request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN> <SPAN style=3D"COLOR: =
+blue">if</SPAN>=20
+            (successor !=3D <SPAN style=3D"COLOR: blue">null</SPAN>)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;successor.HandleRequ=
+est(request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler3' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">ConcreteHandler3</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Handler</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> HandleRequest(<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> request)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (request &gt;=3D 20 =
+&amp;&amp; request=20
+            &lt; 30)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} handled request =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name, =
+request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN> <SPAN style=3D"COLOR: =
+blue">if</SPAN>=20
+            (successor !=3D <SPAN style=3D"COLOR: blue">null</SPAN>)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;successor.HandleRequ=
+est(request);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">}</P></DIV></DIV></TD></TR>
+        <TR>
+          <TD bgColor=3Dwhite><BR><FONT size=3D2=20
+            face=3D"arial, helvetica">Output</FONT>=20
+            <DIV class=3Doutput>ConcreteHandler1 handled request=20
+            2<BR>ConcreteHandler1 handled request 5<BR>ConcreteHandler2 =
+handled=20
+            request 14<BR>ConcreteHandler3 handled request=20
+            22<BR>ConcreteHandler2 handled request =
+18<BR>ConcreteHandler1=20
+            handled request 3<BR>ConcreteHandler3 handled request=20
+            27<BR>ConcreteHandler3 handled request=20
+      20<BR></DIV></TD></TR></TBODY></TABLE><BR><BR>
+      <HR SIZE=3D1 width=3D"100%">
+      <BR>
+      <P>This <FONT color=3D#00aa55>real-world</FONT> code demonstrates =
+the Chain=20
+      of Responsibility pattern in which several linked managers and =
+executives=20
+      can respond to a purchase request or hand it off to a superior. =
+Each=20
+      position has can have its own set of rules which orders they can =
+approve.=20
+      </P><A id=3DxRealWorld onclick=3D"ShowHide('RealWorld');"=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#_self2"><FONT=
+=20
+      color=3D#007733 size=3D2 face=3DArial,helvetica><B><U>Show=20
+      code</U></B></FONT></A> <BR><BR>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%"=20
+        bgColor=3D#fffaef><TBODY>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><FONT color=3Dgreen>// Chain of =
+Responsibility=20
+            pattern -- Real World example </FONT></DIV></TD></TR>
+        <TBODY style=3D"DISPLAY: none" id=3DRealWorld>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><BR>
+            <DIV class=3Ddivsource>
+            <P style=3D"MARGIN: 0px"><SPAN style=3D"COLOR: =
+blue">using</SPAN>=20
+            System;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px"><SPAN style=3D"COLOR: =
+blue">namespace</SPAN>=20
+            DoFactory.GangOfFour.Chain.RealWorld</P>
+            <P style=3D"MARGIN: 0px">{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> MainApp=20
+            startup class for Real-World </SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> Chain of=20
+            Responsibility Design Pattern.</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">MainApp</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> Entry=20
+            point into console application.</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">static</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> Main()</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Setup Chain of =
+Responsibility</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN> larry =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Director</SPAN>();</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN> sam =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">VicePresident</SPAN>();</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN> tammy =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">President</SPAN>();</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;larry.SetSuccessor(sam);</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sam.SetSuccessor(tammy);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Generate and process purchase=20
+            requests</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN> p =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN>(2034, 350.00, <SPAN =
+
+            style=3D"COLOR: #a31515">"Supplies"</SPAN>);</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;larry.ProcessRequest(p);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN>(2035, 32590.10, =
+<SPAN=20
+            style=3D"COLOR: #a31515">"Project X"</SPAN>);</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;larry.ProcessRequest(p);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p =3D <SPAN=20
+            style=3D"COLOR: blue">new</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN>(2036, 122100.00, =
+<SPAN=20
+            style=3D"COLOR: #a31515">"Project Y"</SPAN>);</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;larry.ProcessRequest(p);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Wait for user</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.ReadKey();</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'Handler' abstract class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">abstract</SPAN> <SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">protected</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN> successor;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> SetSuccessor(<SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN> successor)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.successor =3D =
+successor;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">abstract</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> ProcessRequest(<SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN> purchase);</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Director</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> ProcessRequest(<SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN> purchase)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (purchase.Amount &lt; =
+10000.0)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} approved request# =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name,=20
+purchase.Number);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN> <SPAN style=3D"COLOR: =
+blue">if</SPAN>=20
+            (successor !=3D <SPAN style=3D"COLOR: blue">null</SPAN>)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;successor.ProcessReq=
+uest(purchase);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">VicePresident</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> ProcessRequest(<SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN> purchase)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (purchase.Amount &lt; =
+25000.0)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} approved request# =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name,=20
+purchase.Number);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN> <SPAN style=3D"COLOR: =
+blue">if</SPAN>=20
+            (successor !=3D <SPAN style=3D"COLOR: blue">null</SPAN>)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;successor.ProcessReq=
+uest(purchase);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> The=20
+            'ConcreteHandler' class</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">President</SPAN> : <SPAN=20
+            style=3D"COLOR: #2b91af">Approver</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">override</SPAN> <SPAN=20
+            style=3D"COLOR: blue">void</SPAN> ProcessRequest(<SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN> purchase)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">if</SPAN> (purchase.Amount &lt; =
+100000.0)</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(<SPAN=20
+            style=3D"COLOR: #a31515">"{0} approved request# =
+{1}"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>.GetType().Name,=20
+purchase.Number);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">else</SPAN></P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #2b91af">Console</SPAN>.WriteLine(</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: #a31515">"Request# {0} requires an executive =
+
+            meeting!"</SPAN>,</P>
+            <P=20
+            style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purchase=
+.Number);</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green"> Class=20
+            holding request details</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: gray">///</SPAN><SPAN style=3D"COLOR: =
+green">=20
+            </SPAN><SPAN style=3D"COLOR: =
+gray">&lt;/summary&gt;</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">class</SPAN> <SPAN=20
+            style=3D"COLOR: #2b91af">Purchase</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">private</SPAN> <SPAN=20
+            style=3D"COLOR: blue">int</SPAN> _number;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">private</SPAN> <SPAN=20
+            style=3D"COLOR: blue">double</SPAN> _amount;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">private</SPAN> <SPAN=20
+            style=3D"COLOR: blue">string</SPAN> _purpose;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Constructor</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> Purchase(<SPAN=20
+            style=3D"COLOR: blue">int</SPAN> number, <SPAN=20
+            style=3D"COLOR: blue">double</SPAN> amount, <SPAN=20
+            style=3D"COLOR: blue">string</SPAN> purpose)</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>._number =3D number;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>._amount =3D amount;</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">this</SPAN>._purpose =3D purpose;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Gets or sets purchase =
+number</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">int</SPAN> Number</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">get</SPAN> { <SPAN=20
+            style=3D"COLOR: blue">return</SPAN> _number; }</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">set</SPAN> { _number =3D <SPAN=20
+            style=3D"COLOR: blue">value</SPAN>; }</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Gets or sets purchase =
+amount</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">double</SPAN> Amount</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">get</SPAN> { <SPAN=20
+            style=3D"COLOR: blue">return</SPAN> _amount; }</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">set</SPAN> { _amount =3D <SPAN=20
+            style=3D"COLOR: blue">value</SPAN>; }</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: green">// Gets or sets purchase =
+purpose</SPAN></P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">public</SPAN> <SPAN=20
+            style=3D"COLOR: blue">string</SPAN> Purpose</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;{</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">get</SPAN> { <SPAN=20
+            style=3D"COLOR: blue">return</SPAN> _purpose; }</P>
+            <P style=3D"MARGIN: =
+0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN=20
+            style=3D"COLOR: blue">set</SPAN> { _purpose =3D <SPAN=20
+            style=3D"COLOR: blue">value</SPAN>; }</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">&nbsp;&nbsp;}</P>
+            <P style=3D"MARGIN: 0px">}</P></DIV></DIV></TD></TR>
+        <TR>
+          <TD bgColor=3Dwhite><BR><FONT size=3D2=20
+            face=3D"arial, helvetica">Output</FONT><BR>
+            <DIV class=3Doutput>
+            <DIV class=3Doutput>Director Larry approved request# =
+2034<BR>President=20
+            Tammy approved request# 2035<BR>Request# 2036 requires an =
+executive=20
+            meeting!<BR></DIV></DIV></TD></TR></TBODY></TABLE><BR><BR>
+      <HR SIZE=3D1 width=3D"100%">
+      <BR>
+      <P>This <FONT color=3D#0044aa>.NET optimized</FONT> code =
+demonstrates the=20
+      same real-world situation as above but uses modern, built-in .NET=20
+      features, such as, generics, reflection, object initializers, =
+automatic=20
+      properties, etc. </P><A id=3DxNetOptimized=20
+      onclick=3D"ShowHide('NetOptimized');"=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#_self1"><FONT=
+=20
+      color=3D#0044aa size=3D2 face=3DArial,helvetica><B><U>Show=20
+      code</U></B></FONT></A> <BR><BR>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%"=20
+        bgColor=3D#fffaef><TBODY>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><FONT color=3Dgreen>// Chain of =
+Responsibility=20
+            pattern -- .NET optimized </FONT></DIV></TD></TR>
+        <TBODY style=3D"DISPLAY: none" id=3DNetOptimized>
+        <TR>
+          <TD>
+            <DIV class=3Dsourcecode><BR>
+            <TABLE=20
+            style=3D"BORDER-BOTTOM: #000 1px dotted; BORDER-LEFT: #000 =
+1px dotted; BORDER-TOP: #000 1px dotted; BORDER-RIGHT: #000 1px dotted"=20
+            border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D450 =
+bgColor=3Dwhite>
+              <TBODY>
+              <TR>
+                <TD vAlign=3Dcenter width=3D220 align=3Dleft><BR><A=20
+                  =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx"><IMG=20
+                  border=3D0=20
+                  =
+src=3D"http://www.dofactory.com/Images/patternboxcsandvb35-medium.gif"=20
+                  width=3D210 height=3D136></A><BR>&nbsp;&nbsp;&nbsp;<A=20
+                  =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx"><FONT=20
+                  color=3D#bb0000><B>Two editions: C# and=20
+                VB.NET</B></FONT></A><BR></TD>
+                <TD vAlign=3Dtop width=3D230><BR>The .NET optimized code =
+is part=20
+                  of our <A class=3Dalwayson=20
+                  =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx">Design=20
+                  Pattern Framework 3.5</A><SUP>TM</SUP> with: <BR><FONT =
+
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>69 gang-of-four pattern =
+projects</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>46 head-first pattern =
+projects</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>Fowler's enterprise =
+patterns</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>SOA &amp; Message =
+patterns</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>Cloud Facade, Business =
+rules</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>e-commerce web =
+application</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>WCF, WPF, &amp; LINQ</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>MVC, MVP, &amp; MVVM</FONT><BR><FONT=20
+                  style=3D"MARGIN-LEFT: 2px; TOP: 3px; MARGIN-RIGHT: =
+8px"=20
+                  color=3D#ff4500 size=3D3 =
+face=3Darial><B>=E2=80=A2</B></FONT><FONT=20
+                  color=3D#ff4500>100% pure source =
+code</FONT><BR><BR><FONT=20
+                  color=3Dblack>Instant download. <A class=3Dalwayson=20
+                  =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx">Order=20
+                  =
+now!</A></FONT><BR><BR></TD></TR></TBODY></TABLE>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT=20
+            face=3Darial>See our <A class=3Dalwayson=20
+            =
+href=3D"http://www.dofactory.com/Patterns/PatternSingleton.aspx">Singleto=
+n</A>=20
+            page for a <I>.NET optimized</I> code sample.</FONT>
+            <DIV class=3Dsourcecode><BR></DIV></DIV></TD></TR>
+        <TR>
+          <TD =
+bgColor=3Dwhite></TD></TR></TBODY></TABLE><BR><BR></DIV><SPAN=20
+      id=3Dctl00_TheToTop>
+      <DIV class=3Dtotop>
+      <P class=3Dreturntotop><A name=3Dhome></A><A=20
+      href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#"><IMG =
+
+      align=3DabsBottom =
+src=3D"http://www.dofactory.com/Images/up.gif"></A><A=20
+      =
+href=3D"http://www.dofactory.com/Patterns/PatternChain.aspx#">return to=20
+      top</A></P>
+      <DIV class=3Ddash></DIV></DIV></SPAN></DIV></TD>
+    <TD vAlign=3Dtop align=3Dleft>
+      <DIV id=3Dpromo><IMG border=3D0=20
+      src=3D"http://www.dofactory.com/Images/pixel.gif" width=3D172 =
+height=3D50><BR>
+      <DIV align=3Dcenter>
+      <TABLE border=3D0 cellSpacing=3D1 cellPadding=3D0 width=3D172 =
+bgColor=3D#ff4400>
+        <TBODY>
+        <TR>
+          <TD bgColor=3Dwhite align=3Dmiddle><BR>
+            <DIV align=3Dleft>
+            <UL>
+              <LI><SPAN style=3D"BACKGROUND: yellow; COLOR: =
+#bb0000">Better Code=20
+              </SPAN></LI>
+              <LI><SPAN style=3D"BACKGROUND: yellow; COLOR: =
+#bb0000">Better Career=20
+              </SPAN></LI>
+              <LI><SPAN style=3D"BACKGROUND: yellow; COLOR: =
+#bb0000">Better=20
+              Lifestyle </SPAN></LI></UL></DIV><BR><A class=3Dalwayson=20
+            =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx"><FONT=20
+            size=3D3><B>Design Pattern<BR>Framework =
+3.5</B></FONT></A><SUP><FONT=20
+            color=3D#aa0000>TM</FONT></SUP><BR><BR><A=20
+            =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx"><IMG=20
+            border=3D0=20
+            =
+src=3D"http://www.dofactory.com/Images/patternboxcsandvb35-small.gif"=20
+            width=3D170 height=3D110></A><A class=3Dalwayson=20
+            =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx"><BR><B>C#=20
+            and VB.NET</B></A><BR><BR>
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D170>
+              <TBODY>
+              <TR>
+                <TD bgColor=3Dwhite =
+align=3Dleft></TD></TR></TBODY></TABLE><BR><A=20
+            style=3D"BACKGROUND-COLOR: yellow" class=3Dalwayson=20
+            =
+href=3D"http://www.dofactory.com/Framework/Framework.aspx">Click here=20
+            for details</A><BR><BR><B>-- Instant Access --<BR>Instant=20
+            Download</B><BR><BR></TD></TR></TBODY></TABLE></DIV>
+      <SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+function ShowHide( ref )=20
+{=20
+	var color;
+	if( ref.indexOf('Structure') > -1 ) color =3D 'aa0000';=20
+	if( ref.indexOf('RealWorld') > -1 ) color =3D '007733';=20
+	if( ref.indexOf('NetOptimized') > -1 ) color =3D '0044aa';=20
+ =20
+	var structure  =3D document.getElementById(ref);=20
+	var xstructure =3D document.getElementById("x" + ref);=20
+ =20
+	if (structure.style.display =3D=3D'none')=20
+	{=20
+	  xstructure.innerHTML =3D '<font face=3D"Arial,helvetica" color=3D' + =
+color + ' size=3D2><b><u>Hide code</u></b></font>';=20
+		structure.style.display =3D'';=20
+	}=20
+	else=20
+	{=20
+		xstructure.innerHTML =3D '<font face=3D"Arial,helvetica" color=3D' + =
+color + ' size=3D2><b><u>Show code</u></b></font>';=20
+		structure.style.display =3D'none';=20
+	}=20
+}=20
+//-->=20
+</SCRIPT>
+      </DIV></TD></TR></TBODY></TABLE><SPAN id=3Dctl00_TheFooter><BR>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D660>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D200 noWrap align=3Dleft>&nbsp;</TD>
+    <TD vAlign=3Dtop width=3D460 align=3Dmiddle>
+      <DIV id=3Dfooter><A=20
+      =
+href=3D"http://www.dofactory.com/Default.aspx">home</A><SPAN>|</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Courses/Courses.aspx">courses</A><SPAN>|=
+</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Schedule/Schedule.aspx">schedule</A><SPA=
+N>|</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Register/Register.aspx">registration</A>=
+<SPAN>|</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Careers/Careers.aspx">careers</A><SPAN>|=
+</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Sitemap/Sitemap.aspx">sitemap</A><SPAN>|=
+</SPAN><A=20
+      href=3D"http://www.dofactory.com/About/About.aspx">about us</A>
+      <DIV align=3Dcenter><A=20
+      =
+href=3D"http://www.dofactory.com/Member/Login.aspx">login</A><SPAN>|</SPA=
+N><A=20
+      href=3D"http://www.dofactory.com/Patterns/Patterns.aspx">design=20
+      patterns</A><SPAN>|</SPAN><A=20
+      href=3D"http://www.dofactory.com/Framework/Framework.aspx">pattern =
+
+      framework</A><SPAN>|</SPAN><A=20
+      =
+href=3D"http://www.dofactory.com/Resources/Resources.aspx">resources</A><=
+/DIV>
+      <HR>
+
+      <DIV id=3Dcopyright>Copyright 2001 - 2009 Data &amp; Object =
+Factory, LLC.=20
+      All rights reserved.<BR>Data &amp; Object Factory=E2=84=A2, =
+dofactory.com=E2=84=A2, and=20
+      the 'slanting do' logo are trademarks of <BR>Data &amp; Object =
+Factory,=20
+      LLC.</DIV>
+      <DIV id=3Dterms><A =
+href=3D"http://www.dofactory.com/Terms/Terms.aspx">terms of=20
+      use</A><SPAN>&nbsp;|&nbsp;</SPAN><A=20
+      href=3D"http://www.dofactory.com/Terms/Privacy.aspx">privacy=20
+      statement</A></DIV><!-- terms --></DIV><!-- footer =
+--></TD></TR></TBODY></TABLE></SPAN></DIV></FORM></DIV>
+<SCRIPT type=3Dtext/javascript =
+src=3D"http://www.google-analytics.com/urchin.js">
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+_uacct =3D "UA-1223200-3";
+urchinTracker();
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/logo.gif
+
+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
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/redarrow.gif
+
+R0lGODlhCAAHAJEAAJxjAP///9a9jKV7ISH5BAAAAAAALAAAAAAIAAcAAAIPVI4BYwnP0Jvj0KZi
+wqkAADs=
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/pixel.gif
+
+R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAQAIChFEAOwA=
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/use_medium_low.gif
+
+R0lGODdhZQAUAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8EAgAGAgAIAgAKAgAMAg
+AOAgAABAACBAAEBAAGBAAIBAAKBAAMBAAOBAAABgACBgAEBgAGBgAIBgAKBgAMBgAOBgAACAACCA
+AECAAGCAAICAAKCAAMCAAOCAAACgACCgAECgAGCgAICgAKCgAMCgAOCgAADAACDAAEDAAGDAAIDA
+AKDAAMDAAODAAADgACDgAEDgAGDgAIDgAKDgAMDgAODgAAAAQCAAQEAAQGAAQIAAQKAAQMAAQOAA
+QAAgQCAgQEAgQGAgQIAgQKAgQMAgQOAgQABAQCBAQEBAQGBAQIBAQKBAQMBAQOBAQABgQCBgQEBg
+QGBgQIBgQKBgQMBgQOBgQACAQCCAQECAQGCAQICAQKCAQMCAQOCAQACgQCCgQECgQGCgQICgQKCg
+QMCgQOCgQADAQCDAQEDAQGDAQIDAQKDAQMDAQODAQADgQCDgQEDgQGDgQIDgQKDgQMDgQODgQAAA
+gCAAgEAAgGAAgIAAgKAAgMAAgOAAgAAggCAggEAggGAggIAggKAggMAggOAggABAgCBAgEBAgGBA
+gIBAgKBAgMBAgOBAgABggCBggEBggGBggIBggKBggMBggOBggACAgCCAgECAgGCAgICAgKCAgMCA
+gOCAgACggCCggECggGCggICggKCggMCggOCggADAgCDAgEDAgGDAgIDAgKDAgMDAgODAgADggCDg
+gEDggGDggIDggKDggMDggODggAAAwCAAwEAAwGAAwIAAwKAAwMAAwOAAwAAgwCAgwEAgwGAgwIAg
+wKAgwMAgwOAgwABAwCBAwEBAwGBAwIBAwKBAwMBAwOBAwABgwCBgwEBgwGBgwIBgwKBgwMBgwOBg
+wACAwCCAwECAwGCAwICAwKCAwMCAwOCAwACgwCCgwECgwGCgwICgwKCgwMCgwOCgwADAwCDAwEDA
+wGDAwIDAwKDAwP/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAAAAAAALAAAAABlABQA
+AAjxAP8JHEiwoMGDCBMqXMiwocODpB4OJBVR4j+KFRtmfIiRokWBHiVW3MgwI8mEIzl+NHjSYUuN
+LkGqXEnw5UKbCkNq7OgSI82LH3GWtCgUYVGjRFeaTBpTplKiPkXqnNnz6M+rWLNq3cq160AAYMOK
+HUu2rNmzaNOqXcu2rdu3cOOyzUe3rt27dcHi3XsX7K+/gAMLBux3sOHAhQ8bFsu3cT69jvcmVjx4
+MmXEAC5XDhtZMoDOeC1r/iVac2nKjEHbhaya7mnUmUdjlk2Yc2vXn28/jk2bNG/arw+nvs26dXDh
+v2Uf3yy3ufPn0KNLn842IAA7
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/552092_4.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/7QqAUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA
+AQBIAAAAAQABOEJJTQQNAAAAAAAEAAAAeDhCSU0D8wAAAAAACAAAAAAAAAAAOEJJTQQKAAAAAAAB
+AAA4QklNJxAAAAAAAAoAAQAAAAAAAAACOEJJTQP1AAAAAABIAC9mZgABAGxmZgAGAAAAAAABAC9m
+ZgABAKGZmgAGAAAAAAABADIAAAABAFoAAAAGAAAAAAABADUAAAABAC0AAAAGAAAAAAABOEJJTQP4
+AAAAAABwAAD/////////////////////////////A+gAAAAA////////////////////////////
+/wPoAAAAAP////////////////////////////8D6AAAAAD/////////////////////////////
+A+gAADhCSU0ECAAAAAAAEAAAAAEAAAJAAAACQAAAAAA4QklNBBQAAAAAAAQAAAABOEJJTQQMAAAA
+AAjvAAAAAQAAAEsAAABLAAAA5AAAQswAAAjTABgAAf/Y/+AAEEpGSUYAAQIBAEgASAAA//4AJkZp
+bGUgd3JpdHRlbiBieSBBZG9iZSBQaG90b3Nob3CoIDUuMP/uAA5BZG9iZQBkgAAAAAH/2wCEAAwI
+CAgJCAwJCQwRCwoLERUPDAwPFRgTExUTExgRDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwBDQsLDQ4NEA4OEBQODg4UFA4ODg4UEQwMDAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDP/AABEIAEsASwMBIgACEQEDEQH/3QAEAAX/xAE/AAABBQEBAQEBAQAAAAAA
+AAADAAECBAUGBwgJCgsBAAEFAQEBAQEBAAAAAAAAAAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggF
+AwwzAQACEQMEIRIxBUFRYRMicYEyBhSRobFCIyQVUsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNU
+ZEXCo3Q2F9JV4mXys4TD03Xj80YnlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH
+1+f3EQACAgECBAQDBAUGBwcGBTUBAAIRAyExEgRBUWFxIhMFMoGRFKGxQiPBUtHwMyRi4XKCkkNT
+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
+IFZpZXdpbmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAdmlldwAAAAAAE6T+ABRfLgAQzxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABX
+H+dtZWFzAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAA
+AAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8
+AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0B
+EwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZ
+AeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC
+6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7
+BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF
+5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfS
+B+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEK
+Jwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1DI4MpwzA
+DNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MP
+zw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMj
+E0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW
++hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsU
+GzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qf
+vx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSr
+JNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIq
+NSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+
+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2
+cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0i
+PWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdE
+ikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwq
+THJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJU
+j1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0n
+XXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1m
+kmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XAr
+cIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6
+pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VH
+hauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q
+1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJ
+nPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSp
+N6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYB
+tnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD
+1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+
+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4Dbg
+veFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTvQO/M
+8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23/
+///+ACZGaWxlIHdyaXR0ZW4gYnkgQWRvYmUgUGhvdG9zaG9wqCA1LjD/7gAOQWRvYmUAZIAAAAAB
+/9sAhAAMCAgICQgMCQkMEQsKCxEVDwwMDxUYExMVExMYEQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMAQ0LCw0ODRAODhAUDg4OFBQODg4OFBEMDAwMDBERDAwMDAwMEQwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABLAEsDASIAAhEBAxEB/90ABAAF/8QBPwAAAQUBAQEB
+AQEAAAAAAAAAAwABAgQFBgcICQoLAQABBQEBAQEBAQAAAAAAAAABAAIDBAUGBwgJCgsQAAEEAQMC
+BAIFBwYIBQMMMwEAAhEDBCESMQVBUWETInGBMgYUkaGxQiMkFVLBYjM0coLRQwclklPw4fFjczUW
+orKDJkSTVGRFwqN0NhfSVeJl8rOEw9N14/NGJ5SkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2N0dX
+Z3eHl6e3x9fn9xEAAgIBAgQEAwQFBgcHBgU1AQACEQMhMRIEQVFhcSITBTKBkRShsUIjwVLR8DMk
+YuFygpJDUxVjczTxJQYWorKDByY1wtJEk1SjF2RFVTZ0ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV
+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
+f/0YQcSdo557QrP96ctf/9k=
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/up.gif
+
+R0lGODlhEQARAPf/AP///wgICCEhIWNjY4SEhLW1tf8AANa1ACEhADExAEpKAGNjAKWlALW1AM7O
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDAwCH5BAEAAP8ALAAAAAARABEA
+QAipAP8JFFiAwICDBAoMFDhggYMDBgwcgDgx4gEHCwYs/Ffw4ICEG/8NSOCgZMWJJR0k0CiSZEqK
+KR0gYMlRQIIGMR00SCBA4T8CCExCjGjxokwCQHPCjImAAEGbDHIy4OlzYIEBARAs2IogwICqNRW8
+RFlSQU+OAXA+HCrRaIMAVx1WlEi3LcaDciee1HsxY4EAUV9KjPlWYQEBYoUadWAW7NWsWxd0/Tow
+IAA7
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Patterns/Diagrams/chain.gif
+
+R0lGODdhsQGlAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8EAgAGAgAIAgAKAgAMAg
+AOAgAABAACBAAEBAAGBAAIBAAKBAAMBAAOBAAABgACBgAEBgAGBgAIBgAKBgAMBgAOBgAACAACCA
+AECAAGCAAICAAKCAAMCAAOCAAACgACCgAECgAGCgAICgAKCgAMCgAOCgAADAACDAAEDAAGDAAIDA
+AKDAAMDAAODAAADgACDgAEDgAGDgAIDgAKDgAMDgAODgAAAAQCAAQEAAQGAAQIAAQKAAQMAAQOAA
+QAAgQCAgQEAgQGAgQIAgQKAgQMAgQOAgQABAQCBAQEBAQGBAQIBAQKBAQMBAQOBAQABgQCBgQEBg
+QGBgQIBgQKBgQMBgQOBgQACAQCCAQECAQGCAQICAQKCAQMCAQOCAQACgQCCgQECgQGCgQICgQKCg
+QMCgQOCgQADAQCDAQEDAQGDAQIDAQKDAQMDAQODAQADgQCDgQEDgQGDgQIDgQKDgQMDgQODgQAAA
+gCAAgEAAgGAAgIAAgKAAgMAAgOAAgAAggCAggEAggGAggIAggKAggMAggOAggABAgCBAgEBAgGBA
+gIBAgKBAgMBAgOBAgABggCBggEBggGBggIBggKBggMBggOBggACAgCCAgECAgGCAgICAgKCAgMCA
+gOCAgACggCCggECggGCggICggKCggMCggOCggADAgCDAgEDAgGDAgIDAgKDAgMDAgODAgADggCDg
+gEDggGDggIDggKDggMDggODggAAAwCAAwEAAwGAAwIAAwKAAwMAAwOAAwAAgwCAgwEAgwGAgwIAg
+wKAgwMAgwOAgwABAwCBAwEBAwGBAwIBAwKBAwMBAwOBAwABgwCBgwEBgwGBgwIBgwKBgwMBgwOBg
+wACAwCCAwECAwGCAwICAwKCAwMCAwOCAwACgwCCgwECgwGCgwICgwKCgwMCgwOCgwADAwCDAwEDA
+wGDAwIDAwKDAwP/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAAAAAAALAAAAACxAaUA
+AAj/AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPqxHiPlM+fQIMKHUq0qNGjRO/tXPqvJ9KnUKNKnRqUqVWKAKhq3ToVwFWcCLJy
+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
+fMY5HBAAOw==
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/patternboxcsandvb35-medium.gif
+
+R0lGODlh0gCIAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAN5ICsHBwaAKAMPMzbfDw/j5+MrKyYt0
+TKmVcVhBIO/n29bErpxWC8Kkg8q0m9bRzKmop/Dv7re2te3czB8WD8J9VfDHtONEBN1DBd5KCs9Y
+KN08AttPGeNgL+d5UOyWdfGwl40rH+Xl5d7e3tjY2MbGxktLS////yH5BAEAAP8ALAAAAADSAIgA
+AAj/AAEIHEiwoMGDCBMqXMiwocOHECNKnEix4kB+Xczx09fNosePIEOKHCkynZV8+ebR09HOnLd9
+HUnKnFnQShd+6WLS3Dmymzoy2rTle0f0HTxs8tqVy7YvHc+nFU2iXNnypVOoWCFiDBp0KLav2OAV
+Rao0G06dWdMO9AlUKLx5RMkubaq27kB94PJx7foOrN+v7+C+W1lOoz67WFd02ZvPb9F5ctWdRcwz
+HToya/by/cv5q9h58FbOMHeOI+WR+8BpFtoZG1HBokmbPh1S3eLVm1u3/gyZpQyrtClazpdZc2Pd
+YOG9Venbm76rwSPuu407N3LkY5POhR49IdvqrK///xUbVztT7t0P6jsJnqtX8eKLEqWnVGPO9AS3
+tj8Ov3PR0DqUo05TaHX3XXvu9dXfgoFBFltpBSKWml4I8rfgbkU9OBtt3lCHoHUXLvgZgC1BaNdw
+H3YVInwjYuPbChuqZUWKxim44orkQWYeTBGS1E02Hn5o4Y3xERVPUjL0Q2BWbdEIIpEryjeYUgOi
+JxI4xTk5JJTwyUeYfT2K1KSWNnLJZWDzBQimmE66ZyaRrwE4mokkjUnje2/m6SVL5sAY5kN2prhl
+nhfyRg+SL/0ZUaBClknom+SV185vz03EaIWPQppdWXRVdOl+8wjmaKZcRirXOJ029Cl4g5J642tp
+Fv82GUSrarbGGmQEMoMO8tATaqhxuWqmqaKNg9NCteKWkmDC5hmphooOlKw2mZFhBTdWdJOOPiuo
+U047vC7HbLNQHmUUfcg6WW0g4Moj7ljkwhkYPEe2BKNCq96azzfXbtOPFQZpu4835nyrAz3vjhpv
+fDqk++Ea+XRhxTboCLxCwe0uB+/CIcrXDr7V6dsFOtlsk83JACvUTTf68JONDLv2GsSvwXLc2jsN
+gwyeyOhw42/KBAlM8Le9Jmxzf+/Uo/Ne1fbbz8lQA+3QyvqcM44M7WJDs8IL55zQpU37/HQ2/y5E
+9Tkvt+srsDUf/ZfXBzV5qzb8cjM21FEHDNHKA5v/MwO4CG+9MM4OcyXytXefXPbeLJ+DMa9as821
+sIR/TS3EI/uL9+aLD7SPP4FYgc5hjLecjd/tyCx4ppVbHhTPYm9OttQsR1uQ0I/TMzPb8bYetzZk
+gKPONib3Y7zsKBfEDzvssMK81BJRzc84BssTFu9m+v572MQjr7jU+7ACeiArRM8yP/3AzOva2BOq
+fUESx+5NNuigo84KyEPPzzUA6xPINeroyT4cRzT2jStEcPtd/I5HtnPMj3NSWx4rAuG8QHjkbFeL
+WeQOCKUEFgQd+MNbIPwxQXXkT3nsAMRAxNcR/FkJAPwIBOkesrJ07ONlf+vVrzh4Mw8W5Aro8NfY
+/7xxDnQEAh2Jm11++AeAbliBiSKxWO6MdqH3EQSJUPuX85gXiCR2TiDLu8JAAsGO9TCPFfwAgGXQ
+4ZQY7uMj56Ne1lb3Fyte0WRZRAcgnMcKBn4vP+ywoEBIqC10WOEcB/GGP94YPRsSLIeBa18PFYLF
+qJFQfFY44RJVKBArsCIb7ADYCLtBQRKWxgpOadlC0vHCg3RjgFP8lVhc48Mr3s0bVmDHNY74ycR9
+cXlAI6P/mseKAMYwEGlczwwrIr0Mro9ms3RMLQVSydn544yB0ORFQjkQEqrjGv6wAhmzMcFu6CGT
+7NhHP7hoBX3so2Xc8SToGDk1G2YwdWubJjXv1v+P8YWul3j7ZSAH4klusAMdAPCkPvwRTnYMSIYA
+oF8rBcKtZXqncVebo+T0Wc1sdCsQepCMNsEIzn7wAx2B3EYoA8FSfqijeagEJT8Y6r9rrICMrGCF
+NwjKCiuQkDsrewgrrSYDGSyko/7QwzXZ4Q+yBTSCUASAN68xwf+R0x/6qB8o94FS8QXihv1Ax04J
+SlV/BDAir3wk4ObBUV9m4xyetMIDswi9hW4RnDmZIADO8VWzcCGQ3mAHP1iB0MGugKHpAN0Y/dFE
+wv7IKf2wIDro6ZA0UpKf15wgCL0I1Z6Kk3/AVIc49xG+QKZDpnp94mGZelCe3hSNBNkWDQU2jrP/
+IqSa/VCHP+qXU6fiDXoUddkKYgLKCuqDFXsAwAhfOliADVaRAPMkQQ/6UnRcMobFJKx0jpo4m3Bj
+BXN9amx9ekZAdISmRuRHO6+6zsEakxWHteAIF9tYdKi3HwBQRyCcWD6IUNYg1fTGCN+KjmKGNxvA
+Tch6KhbRnPZUpfug4ApyOVML+nS6Of2qFY6ZS0CYlqUwec6f/gtgflLQwU31ZYLVCJ3PPa8b4hOw
+Pwza3L3CN5wJZWwnA+lhdYjvk2TMJcC05RAS2xJvPeUHdpOIYGau4I3pUIdTTswO6CqXFfTNCSmv
+2cX97tan4iTnEcU5VoIY+chQM6R1dxlCuk6N/x+M9J/4yMYKrq70GudQ7Hx3PEJUghB0PvYkMnub
+jn6sQMsHOfM+s4hJEooVgiM5pz5A2a0AGnEgSo2JJyPcRX8kVrfh7Cl8Be3pgih60VBDGwmt0GY3
+UySo3eAHy3wqYRxLVyB7hiFDJ9jPbpiVpbp9aegYCtxTB9iTTAXhSD/y0mv6QydEFgj9BrKCCZYQ
+q78O3REtbEF/WNZz3KVrID2KvC96pKUUVnJ+gXbhTrKClNl8dlNHSEGfmoSwWDX1ZQOaDbt5g8lN
+Joj/QkeyU6unfhM1iGj1O1MjHnG3gdCtclHpbX3vG2qh+7dvxRvbith1oAgZ2F1+bNYbO3zC1v9N
+aLYqbuaL480b4DWh7PR3RubpOC3b0oeUPSlWbif22wIxeEeNZ+jcyu6Ln/OqFWw7NdJCRB/9yGo6
+xhxvYDNWnD+3+G2T6A0jis+PSgSkHgDArf5SBtZOWcFwrfBfoXPdiEzl7BInyGXbyeSVPkGmehPq
+ZUS2PCEd7XqGO5o8QO5X0+IEGC7xi5+ghxtquBRfSI8eQW4KhJU5SXhWRCxlrR+kozddJP2Wvbwz
++mPCVBUdVQdqSBCHFTp2F4nb8RZ6l2YS0tts6ktyDDonhvMwWtY8VoyduAmz1h9gD/g2qR7hMqo8
+oWX8HwVZa8GplxPOalSUMikye6gZv4JgF+j/NZjHDgSzWQ+BzKnvVy3O/kJd+AWBf8hd7lHrhs4K
+cl+i1EYJwxFekx+AwFjMtVUUpFtW4FO+Jl/oEzpOkRPLU2bbRX8rYETndHscB0YplA4rwA3W1xH0
+Y0YxBEDSR0jV1jw6h1BmAQB0cR93wXISQXx403rOg3xJpD+7RBAUdF6fRGHzVWDpMFgz9WvFdHpM
+dVhiNkF25VMuhVARCHiJY0gkxFQa52oYKEZj9G75dUmCFYD5xQ7pcA6CNV8sZW8TlFgTJj7DdTzw
+1UQv6HKRxVJHJHObAz3hs3/vBmPP9j/8cAVYhlIayAp55k+fQ2uJh2Xh81IbFmrZsBZF9nhk/wOH
+S1duUMVJuHaH4gMABiUOPcgKPwiIJMRSfWRWTBVsDjVCEmRdEbZiCgGDAbUC57ACAAdclTIQCNYR
+BTZBocSFfrgCYSiAorRSoXRhvuZTz8EKUaVfTKiCx2IQ3ZdFageLlCdwR4SDWLhq/gBAfAgAuyhY
+gHaAiQWHY8hYMFZg/ZAOdHcV3XBoDcGKWfRvcniBDlE1yqhOMIRKEaYPx+U80XUN6mVT/VBn55Bd
+TSE+z0Z2yJRJBnlEEdKMigOLS5d/CmZZEbZb4SRO2sgK3JJOnnRT8iWCDpVyw4hV5hhViecU3WBI
+jOd5JTZzZHR6M0cTluF+FXNTU1ZB4fNOdf+GYz+YUAFUNj3CkLnFUnGnYmjVRJinRuVjGRxRSuXj
+Y3YGZ571SXVmjpumgtFlTHGYaBIoTwV4YKoIFU/TRP2gLX7GbvmmX6ymlfQXQwzVlfA4EizIMmSn
+Dh2hW8W0UMXIaU30SuQTUWw3f05IeydGQRtXeI23FrMWQC0TQ1bCkHyVUwwVjYgRVGzYDd7wSrZl
+XYeRDfenllv3cvaXcbh3Oyx4GtPWZHSxYczoiGRjgKL5lvjhdKK1l6RkUSpIf9Y0QYWpfFcUDt/w
+DV1wBeAADlZgDugwDm91DuIQexMxdWEWVqwWCI3Jmo8ImeFXbOpARHAmDqzEnCAhYNoIMPf/k1BA
+53iB6X25NIZMlmC51Arh4J6tAJ+JEA70GQ6CsA7ikJ/6iXnduTKUCRGWgUiHZkRm93fn+T0TFImj
+SVDuWZ+C8KC/GZzDaQ796Z/eeVQslVWceYALKYGmmA3vmDcGYQWzMJ/1eaIoqpz7gJ/6yaL6qZ9w
+lBAMGXr0Y4FUSFCzEA4mWp/w+Z70qZzi4KIvmp/82ZwC0REu9ULs6FG5NIPXeRC5hKIn2qCJIAju
+oJ/7EKRDOqQ8MaO5xEWFaW7Qt6M6KqX2eaX4KaRbmp9dSn+4RHAhapgEQaL1SaZSCqQvmqX5qaZt
+6qbiZDdMJqZRaqYnOp8qKg5Zip96uqV9//qZdLVbWvWSI+qedlqn9CkI4xCk67AO54CniwqjOwGU
+cRU6kjmnOVqpZXqp55AORIqoirqmjfp5iYNLzcNUu8meOTqlPrqrvikIJ8oCrLqm4hCrsvpynpRh
+YQpcVtCgPKqr9FkY5VAOw7mqwjqsoYqbCAZoEDmnreCrhIoI9NkKuVqf3zCchTEO5+CixLqSmxOA
+R3Rggjquztqs8Rmf4VAO6LqpjHqtB5oNgkeQyZdg5eCbzGqm4Gqfv/kNgpCw33AFDgsO5mAO67Cu
+H1R8x0pCyTqiBGuwUyoIXvCgvvmbwgmx44Cu1koTSxp6oJidcwil3cqrJ/qgMsuwV9CwNv8roRB7
+sjMxo/RWgERZE/YJsygqCOAaoTXbsEf7sNE6sfzqqCcTec3TRZJaE62ACOJ6qTP7DV7wDZXqsQv7
+m+AQrcpJsWj2tAVGVYEAr8patfYasxDqBfb5tVvLsCI7nJlKtqimOLgEOiSzoAOBDrPAPJc6twn7
+oFZ7DYiLuIhgsyMbrXfbtE5LNv9ygH0Lm4DbCqyQow+6tYTrq+JKfuwQsnUrtqUpE+yYWyQECD7b
+spNatApLt17rq+NHfoJQs+DQDsJZGGMLucWqOLd4Yurws9waDuywsIRbuF4Arok7fgv7sLmLrzpr
+um54sT21nlDaq78ZDogQu76ZvOGwvNf/4JvggLQkOw7rcKH+5Yhh9Ymhs62d5JuL+w0I+5u+qrC+
+qkvMcw3N+w24G7akEb0ksaT/krZGFLysC7Ty27Ay67UfC7LjN7vhULMOewWFEbHjgL4PwZCc+WXF
+JLwDwQXYq7Bxu7keq7y6dA05egW467DnygIXzLsVC3m5RFW95cHTlcBaK7qvC7fE+8DhW7PtAA4S
+Wg4ssJwwHMNP+6Wf+KRUm8BXQLSc+7oO7MOiK8Rhq7t4q401eH8K+lsu+7oKe7wyq7yIq0tV/Lzm
+AMCowZrdAggHmE1+m1CsgMMfy7BeC64nbMYSDA5KW8RZPHQ+dka3CqVzHLIy28DbC7L4/4u4ITuy
+5prGGNyIfpq/NAiby4rDEPqbcOu130vFCTucVwzJR/y3xVdKIxSwUMoOmHyiiczD4NsKv4m7wSmt
+EhvJ68jGPWtWNpxQsGzIQwuyPZy4sNywfPzITIuyW0mQHQyb0EfHhxy7eMwOmKu9X5uwwimxWazF
+tGddl5SxNaHKIbvJC/yxeDy7oXu85ZqztswQS9p1/5S2Uzun4Ey/iNC5H4u1iQyuz2yuLLDOC9GM
+T8NSRkR4gjrP2fuxW7u5Ukq09onQgmCu5+DPq0h/X3pIByanNxyy9Gm/g+utcVvHNgucoFwOEi2j
+jihgXKROpZrR2VvNySuzlzrC1Syy0v9K0qOct/3EUpUczzhavyI8tOBapek8nA3bDiLbuPI3EQBd
+kad30QXt02bqsQ4aodZct+Za0oDptP10gH3k1OypvwhLqJfaBaA8viL7uiP7DUndhm5YVT0Vp4J6
+DZv804RartFaDrZLs6C81k3Yu2RzjbrEazUIpbMgv1Ld0B790R5Lt/S7tUTN10dqlBPthmREyUws
+z7562HHrtvRLtzX7tY9909oMNaIlTiy1bNSkv4ns04ntm45M1PQbsnxs0wWxDuUwA6NhJbcNAH8z
+2f3aD9ygDuoQqZY8C0QL05qc2HPbv2adw14gnMIJ2RlMf/3gDTCndqitjcZNnzxMn4n/0LZxy9ia
+bJ+OjB7lQA7kUAZlQA5eoLPdQA4k7QXl4NuRSzbPGKjAZQ5gfdjeCt5gK5ywK9vD+Ses2g2bug7u
+YL7T3a8n84xefRDmELoIm9jskKuZfNaFGw6ODbFoYQ7o7QW4jd4zQBDuQA6bauL07deKI9y7GXZX
+NK4iPJ/xaeEQOtPjvbBXLRDmoBQDUeLtsA5egN7pDd+SHLlBCTo2KqIFEeEOKqXMurhlbc1w+8nm
+oBPpgN7tcBXlUAZe4BTi4A4zAN/tQA4tYdJ+ykfZtMtMzt1O7qBkndYZvuFVruNcruVlUA7iIOK3
+jd5qvJr9ylfpt9NKThDmwKxSfdju/7nADJzcmQ22cy4Q44Dex5wOhbEy7bDeQo7e5iCjPRJUHfWY
+aLnSOm7omQ23rHCprSzeDezoMZHnKN4NY36l5DDiTTTmx5ziSPw9p8cPrTboA7HmQcuj4uqe4FrP
+47yw3gq2/TwQ5+0FnU495CCx0f7PFlrtKxN4cRWnLv7rEr7ZJzoLia7oDg3MIvvoADDmm+7q6bAO
+ZM5K7O7st9yvtJphagvh8MkKwPye4B7shqvhUhy/6WzuM1AGH5MQkS4OkX6lq2jt1T501mWdam7o
+BzvjBWvsi1vNiRzwOmEOBA8APg4A7J7p5DAORa7iYaUHYwiNXgxgrVDh2iuloSsIDf+a2b6Kx99g
+DmHrvzoR5u3QI+PQDkEe5CKuELJW7ZnHSg4PiZf96/EZ8/UJri3P7956z+/5DdL6yDqR585+3pse
+8l4A9Ozd5yqZ60zKVJg02CO6704Ouvj7nohQvN/gPOI72+be7NBWMOIw5l/w9WReDrfOjPwZ+Eg/
+q7kUhbp8o9Q0C6zgnjzc31FPfpdatYFAvA890uYO6yZu6yBP5jEx8CTPzrdTmR21DV1AWJUtVytf
+E7NbxvkLvokruMRb4dLs2rMMHR6O4pBe5+mQ8Hn++UT/HMCPj8KfVaW8SMdKPogPfbLPPC3f+uAr
+uKeeuYK7x+XAHeddDl4A7+xO67z/XQa+T9/WDnp6gEY+BTr89NXP7/rgC+74yzzg8KDFDA5Z/+Hr
+sPtBPt8AcN7doP8MARD89O0bqG/gPoT70PXL1jDbCnSsAgVi5S+QN4f9rADg2NHKNZAh2YUkKXJW
+OHaz2K38JugbuCtdynXrCGAdOZzlON5sN25cOZzrag6tua9mN6RJFzrM1q8fRXb+JK5gupHox5Ek
+s64c2RXkSJUry3VxCc5suppAceIs4wVtNy8zALSTS5QoP7x5857ja4WhQ3TqrEilaIWpxqvXsn7V
+ynjrV7Hfwr08e9QLTnc715bBac6uXaMdu6UbnS7dUodWAnEJpAddINQNrQ79KFLx/21231pBXjmr
+1e9WuVt+uwJu5tEZa8nNQAugmzmh4pp/7siP7/Vz3lZ44x77aSB/FtGhY9p0tsfGirsKetybHXB2
+MV0WP562bfN1XrzQLZeZ+tDQODJtwNP+Mu8KqaYyUDa7artNva7KQSklripMSRAMiQPHHJqGEscn
+cWpqLh2h/quOoQWrShEd1STC6LDzOKptMa4Uk1CxsLgKa5aW5tuww47WmWEc0YAU0MSOAgTAICb1
+ie0hbvRQzbDyEEvswa5WuuYbVnBjJ5xwXGJFpXC8oMw4Iz8bZ501x0mHSBKRcqecEms6Rx0889RT
+sAUh8mcwv6qMEQAHHZtFMcmuyf/xNzC5CvNMc6ajbp0PxVknHc+cE9BNopQ8CCF+nlyBokDYCYSq
+8gYFAJ0HRdIyON7AdAmlcFoRBBwNy5GUqG7EKcfNcdpZh9IZ2jEn2HHqqomfPdExZ7zxAnVo1PAq
+cgpGolhtVTFYUXIVkflQaiXMdnJN067+LG1HHHG6KaenddopRycAl8Xruif5AU8if9RJUVWsLKxx
+pXHDFKTRsIKbzKxyOBzqOV27maHYOVloZ85jAWh4HHfTPAdakEGWtqEVrGCFHZPVebEhK2tideAs
+ISy41gmDC64s4yIlah3/zKF4HHMu/tUcX82JtL4k7eRu6ZGbyoYViVjxN9UGffv/jeDecKz1vZnH
+BbfHyYpLc+OGZ5phznXK8XUGoczpLx2kOTrHCrrrtpvuFEedyJ/yzLtKpeDeq1HRmcFEpNZWZmEF
+TINfihuAZIdMNt5z+lN73rbNcQfuNJU0UJ1sms7GG9UCoRLbbMe1OXHBCW6FFUTAxdC4hlkw2u1y
+0BTR2HImbvunOYvW/Fc3HbbzbuSb7ked8AKZGvWarFA9cK5zJHjxR7vI2WhcYQLHyHTaOSdYOgE4
+1nJf357hWM7r7SibPZsumZ2KrEC1KnRVTwT7wsNJZDLH0W5e8zIaC3xyDiOJw1jjmBORekKnsxHN
+d+kI0blKljy79YkihFkZywZV/45x+QZxVqPZ/75BmSs0zG0rNKBPOFYTBc7gVzM4BwCGBMG0xWtI
+lupVp2qijpDJDzwW4du/7KIORHwjiSf0As7AQRbGhS2F3LvdOFjAgnUYqRsXs50OZyCOza2pQ+ca
+ygrAYYUznhGNa5SfySwitQW1rCPoAFc4wNVEnEGRcYIoTs7KMcVjWTGLu7OUT4wlLBaIQ3MhYpeJ
+lBQyFi3IG8wzldQ6GDq7jKOPZrnCCU9oFuPgSjLj4uO8bGc7FyJwKEI6jqWQRJ2ScQGDeGOKdkpV
+EadlZFDjeEkfu+BJyuTuhIIo2EtuZw5UInOQNbEY2yA3jna90odzRN6K9hWIFP/JsSPj4GRMYKK9
+K8SkOEYrhycF8bUNudCKL3yYNJFUsitYgQtXmKc862agfqAjPBYBnaCIws1uflOc9OGeZDCEoRS2
+UJ3nMo07//PIajrEG7dkhf36hkminGOTfdykKDkJSmBmqBwGPBYZHfqfCyIvnrRsiDcIg8tsDkqj
+Av0oJz+ZO5C6xCXGJKnxTipNJSXPQC4NBDdKZVGqEcUcX+soKJ36SYZ18yXoOAdpTPrTz2zjCoCw
+whWkJEs9yHJk/fiTPsh6Kn8OZRxOdGpbPdrWYb4Emg3FKlCjRzc1jrWiCAHPJTE6FHNE8VHEGSCu
++qjCNV3qqnVF0jZUSreV4rP/Iurgh8ly6UGl7nGn9JmXYQ+7sTXto12LZSxo7no3fJYKNimLo6rU
+sVMmnjND5uALpaxaWqyOZh9AK9Ys76nLk73xsn4bymuZWEdZfQOx57AtaXFrl9Ho4xzmkMFpM8gU
+dejhZPQb7l9roklQlkMdoTWIc5/Lq27sY7rv0gE94DGPecgDg2KVn0ZuOVxtQu6EXSCoT/rhDX2c
+N7fS/Uk7dCCP9+rAur9lyjkgMpHuqopE0hFwXbtBYBkYGMHwhS884IENeMjXt6J7yAq4QZ60wnAc
+zCVNhX+q23HIoFjyoAeH34uNdyiYmnfz6+hWkCIGuZixSEkHP2LcjnbQ+L3z/4DHOz6MDShHGR46
+GDGJWQbk/ArZoTCWcZLdy2EmRznKOXYZ8rjR44sSV8uvHI2Rfebl9y7Zw1IWs5hzXOVtADnNal6z
+iXQ73WK1FxtgnjOI6zxmHXMkWnVDBBmswI087xl/feZVOtT75vYuucNPrjM86FGPOH/YvSDWgciQ
+h4guoGMb3tBziiktmnRI120G/rKNOS1metADxB9m8ofJ3BEgLpoM2lgDGbqgjm1sQ9LeFTJSZJ3h
+Aw/a1oc+9HvrYY952KMe2LgHPrA95WBD625kWIM2vvHoSO85ywJ29nShveFpU1vM87g2vWvcbVBj
+I9EACDeLhq0NYucj1clutf+qLHzh8ck42nIutLyh7GE5x8Me2u72PexhcXx4WAd6MrUV8gHwNRT7
+2KtO87pzi/AYz+DAtYb4rant4U1f+9r4sDjGm7xv+IX73yAPOSLQHdPSXtjIXaZxEOIdj13Le9Px
+qEc97uEOejz9HhV3uju8HY8cNyRPpt45sdcgcHRAGuhDLjJv4Rzvh3f64fPYda7tgQ9uu2Pq7qC4
+1e9x85owBE/j6TrAQS5wZKeb2X62tDcwLQ9pdxjpdYYvNuqh613D4x41djo27CF3uk/9HtfePD48
+X/N55JjVet87tD7ud56v4dxi1+WWC394QjccyhzGxuIhPnl6Y7seNJc7zS3/fvHLf/7aeO/Ij7Wu
+jr6jPuQC//ngj2Lp9WpY0x0Wc5zFLHF8uIPuTK4H08Ux8c93mx74oDfNOY/x3ePDvTnmxwq2Q/pg
+Jz/1YF81QwzOEd0anr3wpv2TIV79i8s+bJsH96KHddC28FM/dyBAmqMH4Nu9t8OHfNu39mM1+JE/
+5Qs5R0O282i3n1A5JUO7xZMyicu3QauHddi8eMi2p3OHeqA7b7s8ixs/Ftw84JNAtjO0HNuHezG+
+nEMHDPS75euCRyuZo0C5d0s86pM3eHi8J6O3A/C2bas6bzuAt5s4ubOH8QuCi7PBucO2XPO1feNB
+B2OIIEQ9rxM4PSg7oqMH/6PbNJcDsQ6DvA/Dh3U4gFFrwgVsQnjwvHmQQAm0O+CDhyiUQC3EhhoL
+s3dYxHfAhhw4CLxwv+M7QyHUQLrRh6GbMTcMtZezMSm7BzDKwxechyAYNM+jBxfcPKvzthk8AHzT
+tlxjMrZrMka0h5oYiEj0BkpEw+U7sOmLQ2qbOatju2yDOhf8ME+LQu0bP2wDRFTkvIljxnoIszlj
+RHrQgXaQgWwQCIPgQeswPuRDQ3HkxTVAhKIjNIeLMgfsNvI7QWPMt2TMPqjztj/cvRdsuqnTQvNL
+Ol9bRGyQB3kZB34QEUjkh10Ux3xYwupTyCijNzCaQWSMB7vLwSY8wG37Q/9sc0G6C75cc7yMYztG
+REQdWB9v2AcCGZBuzMV+OEg0zAfZW7swYzwUtDt4fMGpo0gU3Lwao0cXjEGry7VcI79+XMR4AEgZ
+GAeTZKhYw0WWRD2XrLbcs4d4eEIOq4cDIMWY/DB36AanAzU9hC9do0cbxDZ+dDx/lAcdaJhzMEnT
+SIqkQMmUbL+m9Lt8oDYC1LZCAzOrdEOjW7ut7EprW8BZpEcJtDhPe7h3cEBrxEba0gfSKo1unEuA
+q0u1s0N3EAc8hK+3uwd6O8BuI8s/tDgw2jWr7LaNNEFqZMRGBEjxOgd9aEu3jE0ig0sylExtoEwp
+m4d7OIDLhDprs7jOnLn/fAtNexhNDytNAdS2eUA6asSxkBxJ2moxaSoN09AH28RNKcu+GkNFbJM6
+V6QHMGpAD6MHPAyCy/TK8ZPCQeM01bzGbNzG15RN+ZRN2tyH62S87JtCK9RNq0tB8IzCzRvPzDzP
+8RS+GoOHqYSykGRNgZTOk3pL07jORmxIe1iHxNM1ezgAbOBCF8xMapRIu5s6qmw853Sya1yffmDL
+trQq2eQV53BLuLxPKUPBRCRApivPy0PBafzQQvQ9ity0En2HeMBGGVhLBx2ytwSH0xtHJsVOUxTK
+p/NM8qM3F1yHGqs+p7OHdyBRxGREtGyYknzNAZlP83pRCNUHcGBSNb3N/3nzQ+yzwm4LvXvEw1tr
+QpqzPilrT+hcAcfUMhjNhi5YU4RkPLljO4uTuzgNggYUB3qY0NxkT0YsSnlRh7UUU9JgUbfUlOks
+EurUB3UIVEF1ynkrVG6TukQVP0Z1VJiE1NUMSIFACkqjibd0EpZ00j8USvgSBwkUB9N0uxGsMz19
+z0o9yfmErk2NzQGprFpt03aEr3XY1XtwAKhzwASttgXNxhS9rVc7QrdU1lDNB1XNtnSwB490xWwT
+zy0FVn90T23kB4KwVNhsUfzT1KCD0HTwBnDYReyEB3vgSjvl1XOdvEZ0OT2dARkAsCPd1qPAPyIb
+jRXogiUdRycFMQewlP/vBDVPHLN1bYcN6QduhNfRIFPRqDBZtVd9AFRB3VdswAfMvFhNu7X2pIvG
+LFOF1RR7/VQ1zYdfJc3u6zU7u1bx8lgmOUlMjc2aRdbqVAhQldhOy70DJdizlBf41KKaPVYIVQj5
+m9jZg9nFnFRvcNehJRCRHdmqhdHqnJusrTOkw9MgHdL3TEqardr/MFt+yNeWVFV1bcRrBAcZUIcV
+QIgmIdqxjVt2M9PZNA0z6jutVdDFXB8+hVW5JVnDLQ1A3Tmd/dmoBQfyWAGwDVtilc/I9bPJRcnK
+pcu8/cdJfVXCDd0HPVwnAVWdVU1JBQfQ4VzA9dx4NdrVLVv6rE6cvU1p1UTdctjGhtpd1j1Wwx0Q
+tCWDxMTGoOVcd31XeM3dTAUS4+Vd+lSIfMgH9zSHbIXV6z3eBx1d09iGLjCHh4he6TUIwS3W8GXd
+kpVPK+gCPm2x9xVfC2NYk421peTf9gVd/G02mw3gVwsIADs=
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.dofactory.com/Images/patternboxcsandvb35-small.gif
+
+R0lGODlhqgBuAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAN5ICsHBwaAKAPL7/cjKyvb29be3tox2
+TmdQK6uWc+7n21E6Gufby8yzmNPBrffx6qNhHE1MS93c28ajhCMXDeLNu8Z6UtXT0uJEA99JC9lT
+Htw/AuFhL+d3TeuScfKznJYgFerp6eTj48fGxqyrq/z8/PDw8P///yH5BAEAAP8ALAAAAACqAG4A
+AAj/AAEIHEiwoMGDCBMqXMiwocOHECNKlNitS7l3+bpN3MhxY7guGDV2HEkS4bsu+OBh0+FOxgp9
+IkvK5OjPCj58K1vugzmzZ8R84fBpS4kNnlFs8tyt2+nPp9OE/byR0Ta06NGkS9U1fcpVYDd+ZNZQ
+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
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dofactory.com/App_Themes/DoFactory/DoFactory.css
+
+BODY {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.6em; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; FONT-SIZE: 10pt; PADDING-TOP: 0px
+}
+TD {
+	LINE-HEIGHT: 1.6em; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+FONT-SIZE: 10pt
+}
+.form {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.6em; MARGIN: 10px 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 10pt; PADDING-TOP: 0px
+}
+HR.hide {
+	DISPLAY: none; HEIGHT: 1px; CLEAR: both
+}
+H1 {
+	TEXT-TRANSFORM: none; BACKGROUND-COLOR: white; FONT-FAMILY: Arial, =
+Helvetica; LETTER-SPACING: normal; COLOR: #aa0000; FONT-SIZE: 16px; =
+FONT-WEIGHT: bold; WORD-SPACING: normal
+}
+H2 {
+	TEXT-TRANSFORM: none; BACKGROUND-COLOR: white; FONT-FAMILY: Arial, =
+Helvetica; LETTER-SPACING: normal; COLOR: #aa0000; FONT-SIZE: 16px; =
+FONT-WEIGHT: bold; WORD-SPACING: normal
+}
+H1 SPAN.dp {
+	COLOR: #ffe
+}
+H3 {
+	FONT-SIZE: 110%
+}
+H4 {
+	FONT-SIZE: 100%
+}
+H5 {
+	FONT-SIZE: 90%
+}
+H6 {
+	FONT-SIZE: 80%
+}
+#container {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px =
+auto; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: =
+#fff; PADDING-TOP: 0px
+}
+#header {
+	BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; =
+PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: =
+url(../../Images/heading.gif) #ff6600 no-repeat 230px 30px; HEIGHT: =
+90px; PADDING-TOP: 0px
+}
+#logo {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ff9a00; MARGIN: 0px; =
+PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; DISPLAY: block; =
+FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: =
+90px; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT: #000 1px solid; =
+TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#logo IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN-TOP: 3px; =
+WIDTH: 85px; DISPLAY: block; BORDER-TOP-STYLE: none; HEIGHT: 85px; =
+MARGIN-LEFT: 18px; BORDER-LEFT-STYLE: none
+}
+#header #logo A {
+	BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+#menubox {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 200px; =
+PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#menuhead {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 200px; =
+PADDING-RIGHT: 0px; HEIGHT: 30px; BORDER-RIGHT: #000 1px solid; =
+PADDING-TOP: 0px
+}
+#menu {
+	MARGIN: 20px 0px 0px; WIDTH: 200px; FLOAT: left
+}
+.menuitem {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; HEIGHT: 22px; PADDING-TOP: 0px
+}
+.menuitemactive {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BACKGROUND: url(../../Images/triangle.gif) no-repeat 21px center; =
+HEIGHT: 22px; PADDING-TOP: 0px
+}
+.menuitem A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 38px; PADDING-RIGHT: 0px; COLOR: =
+#000; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.menuitemactive A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 38px; PADDING-RIGHT: 0px; COLOR: =
+#000; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.menuitem A:hover {
+	COLOR: #d00; TEXT-DECORATION: underline
+}
+.menuitem A.active {
+	COLOR: #d00; TEXT-DECORATION: underline
+}
+.menuitemactive A:hover {
+	COLOR: #d00; TEXT-DECORATION: underline
+}
+.menuitemactive A.active {
+	COLOR: #d00; TEXT-DECORATION: underline
+}
+.menudivider {
+	HEIGHT: 20px
+}
+#training {
+	MARGIN: 0px 30px 30px 40px; FONT-FAMILY: Arial; COLOR: #eedd66; CLEAR: =
+both; FONT-SIZE: 18px
+}
+#banner {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc3; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 30px; PADDING-TOP: 0px
+}
+.dash {
+	BACKGROUND-IMAGE: url(../../Images/dash.gif); PADDING-BOTTOM: 0px; =
+BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 460px; =
+PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; FLOAT: left; HEIGHT: =
+4px; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
+.dashwide {
+	BACKGROUND-IMAGE: url(../../Images/dash.gif); PADDING-BOTTOM: 0px; =
+BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 504px; =
+PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; FLOAT: left; HEIGHT: =
+4px; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
+.ban {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BACKGROUND: url(../../Images/arrow.gif) no-repeat 5px center; =
+HEIGHT: 26px; CLEAR: both; PADDING-TOP: 0px
+}
+.banleft {
+	FONT-STYLE: italic; PADDING-LEFT: 33px; FLOAT: left; COLOR: #900; =
+FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.banright {
+	PADDING-RIGHT: 22px; BACKGROUND: url(../../Images/orangedot.gif) =
+no-repeat 97% center; FLOAT: right; COLOR: #900; FONT-SIZE: 10px; =
+PADDING-TOP: 2px
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#footer A {
+	COLOR: #555; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #a00; TEXT-DECORATION: underline
+}
+#footer SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: =
+#aaa; PADDING-TOP: 0px
+}
+#footer #copyright {
+	TEXT-ALIGN: center; LINE-HEIGHT: 15px; COLOR: #777; FONT-SIZE: 11px
+}
+#footer #terms {
+	TEXT-ALIGN: center; LINE-HEIGHT: 15px; MARGIN: 10px 0px 20px; COLOR: =
+#777; FONT-SIZE: 11px
+}
+.totop {
+	PADDING-BOTTOM: 4px; MARGIN-BOTTOM: 2px
+}
+P.returntotop {
+	TEXT-ALIGN: right; FONT-SIZE: 10pt
+}
+P.returntotop IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 17px; PADDING-RIGHT: 7px; =
+HEIGHT: 17px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.hidden {
+	BACKGROUND-COLOR: yellow; DISPLAY: none; COLOR: white; TEXT-DECORATION: =
+none
+}
+#main-body {
+	MARGIN: 0px auto; WIDTH: 100%; FLOAT: left; HEIGHT: auto
+}
+#content-wrapper {
+	WIDTH: 460px
+}
+#content-wrapper-wide {
+	WIDTH: 505px
+}
+#content-wide {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN-TOP: 15px; PADDING-LEFT: =
+0px; WIDTH: 505px; PADDING-RIGHT: 0px; FLOAT: left; MARGIN-LEFT: 0px; =
+PADDING-TOP: 5px
+}
+#subheader-wide {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 505px; =
+PADDING-RIGHT: 0px; HEIGHT: 28px; PADDING-TOP: 0px
+}
+.dash-wide {
+	BACKGROUND-IMAGE: url(../../Images/dash.gif); PADDING-BOTTOM: 0px; =
+BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 505px; =
+PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; FLOAT: left; HEIGHT: =
+4px; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
+#content {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN-TOP: 15px; PADDING-LEFT: =
+0px; WIDTH: 460px; PADDING-RIGHT: 0px; FLOAT: left; MARGIN-LEFT: 0px; =
+PADDING-TOP: 5px
+}
+#promo {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN-TOP: 15px; PADDING-LEFT: =
+10px; WIDTH: 200px; PADDING-RIGHT: 0px; FLOAT: left; MARGIN-LEFT: 10px; =
+PADDING-TOP: 5px
+}
+A.alwayson:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.alwayson:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.alwayson:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.alwayson:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.alwayson:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+A.alwayson1:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #880000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.alwayson1:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #880000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.alwayson1:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #880000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.alwayson1:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #880000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.alwayson1:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+#subheader {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 460px; =
+PADDING-RIGHT: 0px; HEIGHT: 28px; PADDING-TOP: 0px
+}
+.normalsmall {
+	FONT-SIZE: 11px
+}
+.boxed {
+	BORDER-LEFT: #999999 1px solid
+}
+P.margin {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 8px
+}
+.newcourse A:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #900; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcourse A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #900; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcourse A:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #900; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcourse A:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #900; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcourse A:hover {
+	TEXT-DECORATION: underline
+}
+.newdevresources A:link {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #008888; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newdevresources A:visited {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #008888; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newdevresources A:active {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #008888; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newdevresources A:hover {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #008888; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newdevresources A:hover {
+	TEXT-DECORATION: underline
+}
+.newcoursep {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 36px; PADDING-RIGHT: 0px; =
+BACKGROUND: url(../../Images/redarrow.gif) #fff no-repeat 20px center; =
+HEIGHT: 20px; PADDING-TOP: 0px
+}
+.newcoursep A:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcoursep A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcoursep A:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcoursep A:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #990000; FONT-SIZE: =
+13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.newcoursep A:hover {
+	TEXT-DECORATION: underline
+}
+.coursenum {
+	BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000 =
+1px solid; WIDTH: 60px; HEIGHT: 22px; MARGIN-LEFT: 370px; BORDER-TOP: =
+#000 1px solid; BORDER-RIGHT: #000 1px solid
+}
+.coursetitle {
+	BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #000 1px =
+solid; BACKGROUND-COLOR: #fc3; MARGIN-TOP: 8px; PADDING-LEFT: 10px; =
+WIDTH: 440px; HEIGHT: 40px; FONT-SIZE: 13pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: #000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px =
+solid; PADDING-TOP: 2px
+}
+.coursesub {
+	COLOR: #555
+}
+.coursesubtitle {
+	BORDER-BOTTOM: #fc3 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #fc3 1px =
+solid; BACKGROUND-COLOR: #fff; PADDING-LEFT: 10px; WIDTH: 440px; HEIGHT: =
+32px; COLOR: #666; BORDER-TOP: #fc3 1px; BORDER-RIGHT: #fc3 1px solid
+}
+.coursesubtitle DIV {
+	PADDING-TOP: 5px
+}
+.coursetitle DIV {
+	PADDING-TOP: 8px
+}
+.coursecost {
+	BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000 =
+1px solid; MARGIN-TOP: 8px; WIDTH: 120px; HEIGHT: 22px; MARGIN-LEFT: =
+320px; BORDER-TOP: #000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 =
+1px solid
+}
+.newtitle {
+	TEXT-TRANSFORM: none; BACKGROUND-COLOR: white; FONT-FAMILY: Arial, =
+Helvetica; LETTER-SPACING: normal; COLOR: #aa0000; FONT-SIZE: 16px; =
+FONT-WEIGHT: bold; WORD-SPACING: normal
+}
+UL.indent {
+	PADDING-BOTTOM: 16px; PADDING-LEFT: 10px; PADDING-TOP: 20px
+}
+TD.rightimg {
+	TEXT-ALIGN: right; PADDING-TOP: 14px
+}
+#patternhead {
+	BACKGROUND: #fff; HEIGHT: 50px
+}
+#patternhead H1 {
+	MARGIN-TOP: 12px; FLOAT: left
+}
+#patternlist {
+	PADDING-RIGHT: 4px; FLOAT: right
+}
+.sourcecode {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 16px; BACKGROUND-COLOR: #fffaef; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: "courier new", =
+courier, serif; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.output {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 16px; BACKGROUND-COLOR: #fffaef; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: "courier new", =
+courier, serif; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.divsource P {
+	FONT-FAMILY: "courier new", serif; FONT-SIZE: 9pt
+}
+.output {
+	BACKGROUND-COLOR: #000; COLOR: #fff
+}
+.see {
+	FONT-SIZE: 10%
+}
+.intro {
+	BORDER-BOTTOM: orange 2px solid; BORDER-LEFT: orange 2px solid; =
+PADDING-BOTTOM: 15px; LINE-HEIGHT: 13pt; BACKGROUND-COLOR: #fffaf0; =
+PADDING-LEFT: 15px; WIDTH: 426px; PADDING-RIGHT: 15px; BORDER-TOP: =
+orange 2px solid; BORDER-RIGHT: orange 2px solid; PADDING-TOP: 35px
+}
+.intro P {
+	PADDING-BOTTOM: 12px
+}
+.intro H1 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 16px; COLOR: #900; FONT-SIZE: 12pt; =
+TEXT-DECORATION: underline; PADDING-TOP: 2px
+}
+DIV.pat {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+BACKGROUND-COLOR: #ffdead; PADDING-LEFT: 6px; HEIGHT: 18px; FONT-WEIGHT: =
+bold
+}
+DIV.patternhead {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; =
+BACKGROUND-COLOR: #ffd700; MARGIN-TOP: 25px; TEXT-INDENT: 5px; WIDTH: =
+100%; HEIGHT: 20px; FONT-WEIGHT: bold
+}
+P.patterndesc {
+	MARGIN: 15px 0px 25px 15px
+}
+.redbutton {
+	BORDER-BOTTOM: #c00 2px solid; BORDER-LEFT: #c00 2px solid; =
+BACKGROUND-COLOR: green; BORDER-TOP: #c00 2px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: #c00 2px solid
+}
+.testimonial {
+	BORDER-BOTTOM: orange 2px dashed; BORDER-LEFT: orange 2px dashed; =
+PADDING-BOTTOM: 15px; LINE-HEIGHT: 13pt; BACKGROUND-COLOR: #fffaf0; =
+PADDING-LEFT: 15px; WIDTH: 426px; PADDING-RIGHT: 15px; BORDER-TOP: =
+orange 2px dashed; BORDER-RIGHT: orange 2px dashed; PADDING-TOP: 15px
+}
+.guarantee {
+	BORDER-BOTTOM: orange 2px dashed; BORDER-LEFT: orange 2px dashed; =
+PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; WIDTH: 410px; PADDING-RIGHT: =
+15px; BORDER-TOP: orange 2px dashed; BORDER-RIGHT: orange 2px dashed; =
+PADDING-TOP: 15px
+}
+.sidetext {
+	BORDER-BOTTOM: brown 2px solid; TEXT-ALIGN: center; PADDING-BOTTOM: =
+15px; BACKGROUND-COLOR: #fffaf0; WIDTH: 170px; COLOR: #a52a2a; =
+FONT-SIZE: 12pt; BORDER-TOP: brown 2px solid; FONT-WEIGHT: bold; =
+PADDING-TOP: 15px
+}
+.sidecenter {
+	TEXT-ALIGN: center; WIDTH: 170px
+}
+.resources A:link {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #006666; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.resources A:visited {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #006666; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.resources A:active {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #006666; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.resources A:hover {
+	FONT-FAMILY: Arial, Helvetica; COLOR: #006666; FONT-SIZE: 13px; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.resources A:hover {
+	TEXT-DECORATION: underline
+}
+DIV .sociable {
+	MARGIN: 3em 0px
+}
+SPAN.sociable_tagline {
+	POSITION: relative
+}
+SPAN.sociable_tagline SPAN {
+	WIDTH: 14em; DISPLAY: none
+}
+SPAN.sociable_tagline:hover SPAN {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc =
+1px solid; LINE-HEIGHT: 1.25em; DISPLAY: block; BACKGROUND: #ffe; COLOR: =
+black; BORDER-TOP: #ccc 1px solid; TOP: -5em; BORDER-RIGHT: #ccc 1px =
+solid
+}
+.sociable SPAN {
+	DISPLAY: block
+}
+.sociable UL {
+	DISPLAY: inline
+}
+.sociable LI {
+	PADDING-BOTTOM: 2px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+2px; PADDING-RIGHT: 2px; DISPLAY: inline; BACKGROUND: none transparent =
+scroll repeat 0% 0%; PADDING-TOP: 2px
+}
+.sociable UL LI:before {
+	CONTENT: ""
+}
+.sociable IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: =
+0px
+}
+.ajaxsample {
+	LINE-HEIGHT: 13pt; BACKGROUND-COLOR: #fffaf0; WIDTH: 100%; PADDING-TOP: =
+14px
+}
+SELECT.itemselect {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #00dddd; FONT-SIZE: 12pt
+}
+.buttonstyle {
+	BACKGROUND-COLOR: gray; FONT-FAMILY: Verdana; COLOR: white; FONT-SIZE: =
+12pt
+}
+.buttonstyle2 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: gray; =
+MARGIN: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-FAMILY: =
+Verdana; COLOR: white; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; =
+PADDING-TOP: 4px
+}
+.normal {
+	COLOR: #bb0000; FONT-SIZE: 11pt; FONT-WEIGHT: normal
+}
+DIV.red {
+	BORDER-BOTTOM: black 3px dotted; TEXT-ALIGN: center; BORDER-LEFT: black =
+3px dotted; BACKGROUND-COLOR: red; WIDTH: 100%; HEIGHT: 200px; COLOR: =
+white; FONT-SIZE: 14pt; VERTICAL-ALIGN: bottom; BORDER-TOP: black 3px =
+dotted; BORDER-RIGHT: black 3px dotted
+}
+.blue {
+	BORDER-BOTTOM: black 3px dotted; TEXT-ALIGN: center; BORDER-LEFT: black =
+3px dotted; BACKGROUND-COLOR: blue; WIDTH: 100%; HEIGHT: 200px; COLOR: =
+white; FONT-SIZE: 14pt; VERTICAL-ALIGN: middle; BORDER-TOP: black 3px =
+dotted; BORDER-RIGHT: black 3px dotted
+}
+.notset {
+	BORDER-BOTTOM: black 3px dotted; BORDER-LEFT: black 3px dotted; =
+BORDER-TOP: black 3px dotted; BORDER-RIGHT: black 3px dotted
+}
+A.unselected-link:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.unselected-link:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.unselected-link:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.unselected-link:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: =
+10pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.unselected-link:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+A.selected-link:link {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #aa0000; FONT-SIZE: =
+10pt; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.selected-link:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #aa0000; FONT-SIZE: =
+10pt; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.selected-link:active {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #aa0000; FONT-SIZE: =
+10pt; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.selected-link:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #aa0000; FONT-SIZE: =
+10pt; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.selected-link:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+xml {
+	WIDTH: 0px; DISPLAY: none; HEIGHT: 0px
+}
+.message-display {
+	BORDER-LEFT: #aaa 1px solid; PADDING-LEFT: 15px; WIDTH: 300px
+}
+.gold-heading {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ffd700; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-WEIGHT: bold; PADDING-TOP: =
+3px
+}
+.orange-heading {
+	BACKGROUND-COLOR: orange; PADDING-LEFT: 15px; HEIGHT: 20px; COLOR: =
+white; FONT-SIZE: 12pt; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+.green {
+	BACKGROUND: url(../../Images/animated_green.gif)
+}
+.red {
+	BACKGROUND: url(../../Images/animated_red.gif)
+}
+.white {
+=09
+}
+DIV.do-heading {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: orange; COLOR: black
+}
+DIV.do-table {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffe; MARGIN: 0px auto; =
+PADDING-LEFT: 5px; WIDTH: 450px; PADDING-RIGHT: 5px; HEIGHT: 100%; =
+PADDING-TOP: 5px
+}
+DIV.do-row {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; CLEAR: =
+both; PADDING-TOP: 4px
+}
+DIV.do-left {
+	WIDTH: 340px; FLOAT: left
+}
+DIV.do-right {
+	TEXT-ALIGN: right; WIDTH: 100px; FLOAT: left
+}
+DIV.do-row SPAN.do-bullet {
+	TEXT-ALIGN: center; WIDTH: 40px; FLOAT: left; VERTICAL-ALIGN: bottom
+}
+DIV.do-row SPAN.do-label {
+	TEXT-ALIGN: left; WIDTH: 150px; FLOAT: left
+}
+DIV.do-row SPAN.do-field {
+	TEXT-ALIGN: left; WIDTH: 250px; FLOAT: right; HEIGHT: 24px
+}
+DIV.do-row SPAN.do-label-ambush {
+	TEXT-ALIGN: right; WIDTH: 80px; PADDING-RIGHT: 10px; FLOAT: left; =
+PADDING-TOP: 2px
+}
+DIV.do-row SPAN.do-field-ambush {
+	TEXT-ALIGN: left; WIDTH: 130px; FLOAT: left
+}
+DIV.do-row SPAN.do-instruct-ambush {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; WIDTH: 190px; FLOAT: left; COLOR: =
+#b00; PADDING-TOP: 1px
+}
+DIV.do-clear {
+	CLEAR: both
+}
+DIV.do-row SPAN.do-options {
+	TEXT-ALIGN: left; WIDTH: 110px; FLOAT: left; MARGIN-LEFT: 10px
+}
+DIV.do-row SPAN.do-results {
+	BORDER-LEFT: #999 1px solid; BACKGROUND-COLOR: #ffe; PADDING-LEFT: =
+10px; WIDTH: 310px; FLOAT: left
+}
+DIV.do-questions {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: gold; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+DIV.do-row SPAN.do-q {
+	TEXT-ALIGN: left; WIDTH: 350px; FLOAT: left
+}
+DIV.do-row SPAN.do-half {
+	PADDING-LEFT: 10px; WIDTH: 45%; FLOAT: left
+}
+DIV.right {
+	TEXT-ALIGN: right
+}
+DIV.center {
+	TEXT-ALIGN: center
+}
+DIV.do-row SPAN.do-left {
+	TEXT-ALIGN: left; WIDTH: 210px; FLOAT: left; MARGIN-LEFT: 10px
+}
+DIV.do-row SPAN.do-right {
+	TEXT-ALIGN: right; WIDTH: 210px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+DIV.do-row SPAN.do-right-center {
+	TEXT-ALIGN: center; WIDTH: 210px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+DIV.do-row SPAN.do-left-indent {
+	TEXT-ALIGN: left; WIDTH: 210px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.img-border {
+	BORDER-BOTTOM: #a9a9a9 1px solid; POSITION: relative; BORDER-LEFT: =
+#a9a9a9 1px solid; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #fff; MARGIN: =
+-6px 6px 6px -6px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: =
+block; BORDER-TOP: #a9a9a9 1px solid; BORDER-RIGHT: #a9a9a9 1px solid; =
+PADDING-TOP: 4px
+}
+#tooltip {
+	Z-INDEX: 100; BORDER-BOTTOM: orange 1px solid; POSITION: absolute; =
+BORDER-LEFT: orange 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: =
+#ffe; PADDING-LEFT: 6px; WIDTH: 300px; PADDING-RIGHT: 3px; VISIBILITY: =
+hidden; BORDER-TOP: orange 1px solid; BORDER-RIGHT: orange 1px solid; =
+PADDING-TOP: 3px
+}
+
+------=_NextPart_000_0000_01CA4EFD.55740640
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google-analytics.com/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"query";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"yandex";	_uOkw[20]=3D"text";=0A=
+_uOsr[21]=3D"najdi";	_uOkw[21]=3D"q";=0A=
+_uOsr[22]=3D"aol";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"club-internet"; _uOkw[23]=3D"query";=0A=
+_uOsr[24]=3D"mama";	_uOkw[24]=3D"query";=0A=
+_uOsr[25]=3D"seznam";	_uOkw[25]=3D"q";=0A=
+_uOsr[26]=3D"search";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"wp";	_uOkw[27]=3D"szukaj";=0A=
+_uOsr[28]=3D"onet";	_uOkw[28]=3D"qt";=0A=
+_uOsr[29]=3D"netsprint";	_uOkw[29]=3D"q";=0A=
+_uOsr[30]=3D"google.interia";	_uOkw[30]=3D"q";=0A=
+_uOsr[31]=3D"szukacz";	_uOkw[31]=3D"q";=0A=
+_uOsr[32]=3D"yam";	_uOkw[32]=3D"k";=0A=
+_uOsr[33]=3D"pchome";	_uOkw[33]=3D"q";=0A=
+_uOsr[34]=3D"kvasir";	_uOkw[34]=3D"searchExpr";=0A=
+_uOsr[35]=3D"sesam";	_uOkw[35]=3D"q";=0A=
+_uOsr[36]=3D"ozu"; _uOkw[36]=3D"q";=0A=
+_uOsr[37]=3D"terra"; _uOkw[37]=3D"query";=0A=
+_uOsr[38]=3D"nostrum"; _uOkw[38]=3D"query";=0A=
+_uOsr[39]=3D"mynet"; _uOkw[39]=3D"q";=0A=
+_uOsr[40]=3D"ekolay"; _uOkw[40]=3D"q";=0A=
+_uOsr[41]=3D"search.ilse"; _uOkw[41]=3D"search_for";=0A=
+_uOsr[42]=3D"bing"; _uOkw[42]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1.3";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0,nv=3D0;=0A=
+ var nx=3D" expires=3D"+_uNx()+";";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh+".");=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+   b =3D _uGC(dc,"__utmb=3D"+_udh,";");=0A=
+   b =3D ("-" =3D=3D b) ? _udh : b;  =0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else {=0A=
+   a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+   nv=3D1;=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ var wc=3Dwindow;=0A=
+ var c=3D_ubd.cookie;=0A=
+ if(wc && wc.gaGlobal && wc.gaGlobal.dh=3D=3D_udh){=0A=
+  var g=3Dwc.gaGlobal;=0A=
+  var ua=3Dc.split("__utma=3D"+_udh+".")[1].split(";")[0].split(".");=0A=
+  if(g.sid)ua[3]=3Dg.sid;=0A=
+  if(nv>0){=0A=
+   ua[2]=3Dua[3];=0A=
+   if(g.vid){=0A=
+    var v=3Dg.vid.split(".");=0A=
+    ua[0]=3Dv[0];=0A=
+    ua[1]=3Dv[1];=0A=
+   }=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+_udh+"."+ua.join(".")+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uGH() {=0A=
+ var hid;=0A=
+ var wc=3Dwindow;=0A=
+ if (wc && wc.gaGlobal && wc.gaGlobal.hid) {=0A=
+  hid=3Dwc.gaGlobal.hid;=0A=
+ } else {=0A=
+  hid=3DMath.round(Math.random()*0x7fffffff);=0A=
+  if (!wc.gaGlobal) wc.gaGlobal=3D{};=0A=
+  wc.gaGlobal.hid=3Dhid;=0A=
+ }=0A=
+ return hid;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ s+=3D"&utmhid=3D"+_uGH();=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh+".");=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh+".",";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh+".",";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uGCse() {=0A=
+ var h,p;=0A=
+ h=3Dp=3D_ur.split("://")[1];=0A=
+ if(h.indexOf("/")>-1) {=0A=
+  h=3Dh.split("/")[0];=0A=
+  p=3Dp.substring(p.indexOf("/")+1,p.length);=0A=
+ }=0A=
+ if(p.indexOf("?")>-1) {=0A=
+  p=3Dp.split("?")[0];=0A=
+ }=0A=
+ if(h.toLowerCase().indexOf("google")>-1) {=0A=
+  if(_ur.indexOf("?q=3D")>-1 || _ur.indexOf("&q=3D")>-1) {=0A=
+   if (p.toLowerCase().indexOf("cse")>-1) {=0A=
+    return true;=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+  if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else {=0A=
+  var fl;=0A=
+  try {=0A=
+   fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+   f =3D fl.GetVariable("$version");=0A=
+  } catch(e) {}=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+    f =3D "WIN 6,0,21,0";=0A=
+    fl.AllowScriptAccess =3D "always";=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f !=3D "-") {=0A=
+   f =3D f.split(" ")[1].split(",");=0A=
+   f =3D f[0] + "." + f[1] + " r" + f[2];=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinkerUrl(l,h) {=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ var iq =3D l.indexOf("?");=0A=
+ var ih =3D l.indexOf("#");=0A=
+ var url=3Dl;=0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh+".",";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh+".",";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh+".",";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { url=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) url=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) url=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) url=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else url=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return url;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink || !l || l=3D=3D"") return;=0A=
+ _udl.href=3D__utmLinkerUrl(l,h);=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink || !f || !f.action) return;=0A=
+ f.action=3D__utmLinkerUrl(f.action, h);=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3D"+_uNx()+";"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ _udn =3D _udn.toLowerCase(); =0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh+".",s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh+".",";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/' && =
+_udn.indexOf("google.org")=3D=3D-1) {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D_uNx()+";";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10 && _utk.indexOf("=3D")=3D=3D-1) =
+{=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+=0A=
+function _uNx() {=0A=
+  return (new Date((new Date()).getTime()+63072000000)).toGMTString();=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CA4EFD.55740640--

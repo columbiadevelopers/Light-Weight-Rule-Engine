@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="4">
+    <FormId>1375</FormId>
+    <FirstName>Michael</FirstName>
+    <LastName>Boyd</LastName>
+    <Address1>126 East Main Street</Address1>
+    <Address2>Suite 5</Address2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <Zipcode>23456</Zipcode>
+    <Telephone1>345-555-1216</Telephone1>
+    <Telephone2>345-556-1216</Telephone2>
+    <Birthdate>8/28/1952 12:00:00 AM</Birthdate>
+    <Benefit>100000</Benefit>
+    <SignedAtState>GA</SignedAtState>
+    <CWA>Yes</CWA>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

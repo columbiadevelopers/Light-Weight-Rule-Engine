@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="13">
+    <FormId>1662</FormId>
+    <FirstName>James</FirstName>
+    <LastName>Wilson</LastName>
+    <Address1>132 East Main Street</Address1>
+    <Address2>Suite 8</Address2>
+    <City>Seattle</City>
+    <State>WA</State>
+    <Zipcode>28202</Zipcode>
+    <Telephone1>704-555-1222</Telephone1>
+    <Telephone2>704-556-1222</Telephone2>
+    <Birthdate>3/5/1949 12:00:00 AM</Birthdate>
+    <Benefit>40000</Benefit>
+    <CWA>No</CWA>
+    <SignedAtState>WA</SignedAtState>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

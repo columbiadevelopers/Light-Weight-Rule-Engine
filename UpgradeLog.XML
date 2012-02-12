@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LightWeightRulesEngine">
+</Property><Property Name="Solution File" Value="C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\LightWeightRulesEngine.sln">
+</Property><Property Name="Date" Value="Friday, January 28, 2011">
+</Property><Property Name="Time" Value="15:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ChainOfResponsibility" Source="ChainOfResponsibility\ChainOfResponsibility.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ChainOfResponsibility" Source="ChainOfResponsibility\ChainOfResponsibility.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LightWeightRulesEngine" Source="LightWeightRulesEngine\LightWeightRulesEngine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LightWeightRulesEngine" Source="LightWeightRulesEngine\LightWeightRulesEngine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SignedAtState" Source="SignedAtState\SignedAtState.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SignedAtState" Source="SignedAtState\SignedAtState.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="StateIsApproved" Source="StateIsApproved\StateIsApproved.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="StateIsApproved" Source="StateIsApproved\StateIsApproved.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BenefitInLimits" Source="BenefitInLimits\BenefitInLimits.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BenefitInLimits" Source="BenefitInLimits\BenefitInLimits.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AgeInLimits" Source="AgeInLimits\AgeInLimits.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AgeInLimits" Source="AgeInLimits\AgeInLimits.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Handler" Source="Handler\Handler.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Handler" Source="Handler\Handler.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ErrorLogging" Source="ErrorLogging\ErrorLogging.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ErrorLogging" Source="ErrorLogging\ErrorLogging.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FactoryPattern" Source="FactoryPattern\FactoryPattern.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FactoryPattern" Source="FactoryPattern\FactoryPattern.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LightWeightRulesEngine.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LightWeightRulesEngine.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SignedAtState" Source="SignedAtState\SignedAtState.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="StateIsApproved" Source="StateIsApproved\StateIsApproved.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BenefitInLimits" Source="BenefitInLimits\BenefitInLimits.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AgeInLimits" Source="AgeInLimits\AgeInLimits.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Handler" Source="Handler\Handler.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ErrorLogging" Source="ErrorLogging\ErrorLogging.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ChainOfResponsibility" Source="ChainOfResponsibility\ChainOfResponsibility.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="LightWeightRulesEngine" Source="LightWeightRulesEngine\LightWeightRulesEngine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FactoryPattern" Source="FactoryPattern\FactoryPattern.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

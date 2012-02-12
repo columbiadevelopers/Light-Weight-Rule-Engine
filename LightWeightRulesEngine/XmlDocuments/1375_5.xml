@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="5">
+    <FormId>1375</FormId>
+    <FirstName>John</FirstName>
+    <LastName>Williams</LastName>
+    <Address1>127 East Main Street</Address1>
+    <Address2>Apt 4</Address2>
+    <City>Boston</City>
+    <State>MA</State>
+    <Zipcode>34567</Zipcode>
+    <Telephone1>719-555-1217</Telephone1>
+    <Telephone2>719-556-1217</Telephone2>
+    <Birthdate>2/22/1948 12:00:00 AM</Birthdate>
+    <Benefit>90000</Benefit>
+    <SignedAtState>CO</SignedAtState>
+    <CWA>Yes</CWA>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

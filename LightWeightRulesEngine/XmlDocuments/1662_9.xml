@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="9">
+    <FormId>1662</FormId>
+    <FirstName>Timothy</FirstName>
+    <LastName>Andre</LastName>
+    <Address1>131 East Main Street</Address1>
+    <Address2>Apt 6</Address2>
+    <City>Denver</City>
+    <State>CO</State>
+    <Zipcode>80220</Zipcode>
+    <Telephone1>303-555-1221</Telephone1>
+    <Telephone2>303-556-1221</Telephone2>
+    <Birthdate>6/18/1955 12:00:00 AM</Birthdate>
+    <Benefit>350000</Benefit>
+    <CWA>Yes</CWA>
+    <SignedAtState>GA</SignedAtState>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

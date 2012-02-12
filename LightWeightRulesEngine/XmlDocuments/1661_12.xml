@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="12">
+    <FormId>1661</FormId>
+    <FirstName>Robert</FirstName>
+    <LastName>Smith</LastName>
+    <Address1>124 East Main Street</Address1>
+    <Address2>Suite 4</Address2>
+    <City>New York</City>
+    <State>CA</State>
+    <Zipcode>10020</Zipcode>
+    <Telephone1>212-555-1214</Telephone1>
+    <Telephone2>212-556-1214</Telephone2>
+    <Birthdate>9/9/1970 12:00:00 AM</Birthdate>
+    <Benefit>30000</Benefit>
+    <CWA>No</CWA>
+    <SignedAtState>CA</SignedAtState>
+    <Relationship>1</Relationship> 
+  </Application>
+</Applications>

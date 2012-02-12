@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+  <Application AppId="11">
+    <FormId>1375</FormId>
+    <FirstName>Joseph</FirstName>
+    <LastName>Jones</LastName>
+    <Address1>123 East Main Street</Address1>
+    <Address2>Apt 2</Address2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <Zipcode>60652</Zipcode>
+    <Telephone1>312-555-1213</Telephone1>
+    <Telephone2>312-556-1213</Telephone2>
+    <Birthdate>9/3/1940 12:00:00 AM</Birthdate>
+    <Benefit>10000</Benefit>
+    <SignedAtState>GA</SignedAtState>
+    <CWA>Yes</CWA>
+    <Relationship>1</Relationship>
+  </Application>
+</Applications>

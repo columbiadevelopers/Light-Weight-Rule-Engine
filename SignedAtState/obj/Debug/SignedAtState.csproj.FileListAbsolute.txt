@@ -1,0 +1,55 @@
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\DemoProjects\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\Handler.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\Handler.pdb
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.dll
+C:\Users\enotheisen\Documents\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\TestRulesEngine\SignedAtState\obj\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\SignedAtState.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\DataAccess.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\ErrorLogging.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\Handler.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\ErrorLogging.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\bin\Debug\Handler.pdb
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\obj\Debug\SignedAtState.dll
+C:\Documents and Settings\enotheisen\My Documents\LightWeightRulesEngine\LightWeightRulesEngine\LightWeightRulesEngine\SignedAtState\obj\Debug\SignedAtState.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\SignedAtState.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\SignedAtState.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\DataAccess.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\ErrorLogging.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\Handler.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\DataAccess.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\ErrorLogging.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\bin\Debug\Handler.pdb
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\obj\Debug\ResolveAssemblyReference.cache
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\obj\Debug\SignedAtState.dll
+C:\My_data\Visual Studio 2010\Projects\LightWeightRulesEngine\SignedAtState\obj\Debug\SignedAtState.pdb
